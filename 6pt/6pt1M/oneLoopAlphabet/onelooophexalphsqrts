@@ -1,0 +1,31 @@
+(*******************************************************************************************)
+(*                                                                                         *)
+(*  Ancillary file to                                                                      *)
+(*  "One-loop hexagon integral to higher orders in the dimensional regulator"              *)                                          
+(*  	by Johannes M. Henn, Antonela MatijaÅ¡iÄ‡ and Julian Miczajka                        *)
+(*                                                                                         *)
+(*                                                                                         *)
+(*  This file contains substitution rules for the square roots that                        *)
+(*  appear in the one-loop hexagon alphabet.                                               *)
+(*                                                                                         *)
+(*  Square roots correspond to the inverse leading singularities of                        *)
+(*  three-masss triangles, one-mass pentagons and the hexagon. Square                      *)
+(*  roots are denoted by:								   *)
+(*									                   *)
+(*	O3[mm1, mm2, mm3] := Sqrt[\Delta_3 (mm1, mm2, mm3)]				   *)
+(*  O5[s12, s23, s34, s123, s234, mm5] := Sqrt [\Delta_5 (s12, s23, s34, s123, s234, mm5)] *)                                                      (*  O6[s12, s23, s34, s45, s1234, s2345, s123, s234, s345] := Sqrt[\Delta_6]               *)
+(*											   *)
+(*******************************************************************************************)
+
+{O3[mm1_, mm2_, mm3_] :> 
+  Sqrt[mm1^2 + mm2^2 + mm3^2 - 2*mm1*mm2 - 2*mm2*mm3 - 2*mm3*mm1], 
+ O5[s12_, s23_, s34_, s123_, s234_, mm5_] :> 
+  Sqrt[s23^2*(mm5 - s123 + s23 - s234)^2 + 
+    (s12*(s23 - s234) - (s123 - s23)*(s23 - s234 + s34))^2 - 
+    2*s23*(mm5 - s123 + s23 - s234)*(-((s123 - s23)*(s23 - s234 + s34)) + 
+      s12*(s23 - s234 + 2*s34))], O6[s12_, s23_, s34_, s45_, 
+   s1234_, s2345_, s123_, s234_, s345_] :> 
+  Sqrt[-((-s1234^2)*s23^2*s345^2 - s123^2*(s2345*s34 - s234*s345)^2 + 
+     2*s12*s1234*s23*(2*s2345*s34 - s234*s345)*s45 - s12^2*s234^2*s45^2 - 
+     2*s123*(s2345*s34 - s234*s345)*(s1234*s23*s345 + s12*s234*s45))]}
+
