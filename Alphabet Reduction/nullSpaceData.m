@@ -1,3 +1,5 @@
+(* ::Package:: *)
+
 rationalNullSpace12 = SparseArray[Automatic, {1250, 3078}, 0, 
      {1, {{0, 2, 4, 5, 7, 9, 10, 12, 14, 15, 16, 18, 20, 22, 24, 26, 28, 29, 
        31, 33, 34, 35, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 59, 
@@ -376,1669 +378,1669 @@ rationalNullSpace12 = SparseArray[Automatic, {1250, 3078}, 0,
       1, 1, -1, 1, 1, 1, 1, 1, 1, 1, 1, -1, 1, -1, 1, 1, 1, 1, 1, -1, 1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[1][1, 2] = {}
+algebraicNullSpaceRepresentatives[1][1, 2] = {}
  
-algebricNullSpaceRepresentatives[1][1, 9] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[1][1, 9] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{9}, {8}, {7}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[1][2, 1] = {}
+algebraicNullSpaceRepresentatives[1][2, 1] = {}
  
-algebricNullSpaceRepresentatives[1][2, 3] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[1][2, 3] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {9}, {8}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[1][3, 2] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[1][3, 2] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 8, 9, 10}, {{10}, {9}, {8}, {7}, {6}, {5}, 
        {3}, {4}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[1][3, 4] = {}
+algebraicNullSpaceRepresentatives[1][3, 4] = {}
  
-algebricNullSpaceRepresentatives[1][4, 3] = {}
+algebraicNullSpaceRepresentatives[1][4, 3] = {}
  
-algebricNullSpaceRepresentatives[1][4, 5] = SparseArray[Automatic, {10, 10}, 
+algebraicNullSpaceRepresentatives[1][4, 5] = SparseArray[Automatic, {10, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{10}, {9}, {8}, {7}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[1][5, 4] = {}
+algebraicNullSpaceRepresentatives[1][5, 4] = {}
  
-algebricNullSpaceRepresentatives[1][5, 6] = {}
+algebraicNullSpaceRepresentatives[1][5, 6] = {}
  
-algebricNullSpaceRepresentatives[1][6, 5] = SparseArray[Automatic, {10, 10}, 
+algebraicNullSpaceRepresentatives[1][6, 5] = SparseArray[Automatic, {10, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{10}, {9}, {8}, {7}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[1][6, 7] = {}
+algebraicNullSpaceRepresentatives[1][6, 7] = {}
  
-algebricNullSpaceRepresentatives[1][7, 6] = {}
+algebraicNullSpaceRepresentatives[1][7, 6] = {}
  
-algebricNullSpaceRepresentatives[1][7, 8] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[1][7, 8] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {9}, {8}, {7}, {6}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[1][8, 7] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[1][8, 7] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 2, 4, 6, 7, 8, 9, 10, 11, 13}, {{1}, {10}, {1}, {9}, {1}, 
        {8}, {7}, {6}, {5}, {4}, {3}, {1}, {2}}}, {-1, 1, -1, 1, -1, 1, 1, 1, 
       1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[1][8, 9] = {}
+algebraicNullSpaceRepresentatives[1][8, 9] = {}
  
-algebricNullSpaceRepresentatives[1][9, 1] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[1][9, 1] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 5, 7, 9, 11, 13, 15}, {{10}, {9}, {8}, {1}, {7}, 
        {1}, {6}, {1}, {5}, {1}, {4}, {1}, {3}, {1}, {2}}}, {1, 1, 1, -1, 1, 
       -1, 1, -1, 1, -1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[1][9, 8] = {}
+algebraicNullSpaceRepresentatives[1][9, 8] = {}
  
-algebricNullSpaceRepresentatives[2][1, 2] = {}
+algebraicNullSpaceRepresentatives[2][1, 2] = {}
  
-algebricNullSpaceRepresentatives[2][1, 9] = {}
+algebraicNullSpaceRepresentatives[2][1, 9] = {}
  
-algebricNullSpaceRepresentatives[2][2, 1] = {}
+algebraicNullSpaceRepresentatives[2][2, 1] = {}
  
-algebricNullSpaceRepresentatives[2][2, 3] = {}
+algebraicNullSpaceRepresentatives[2][2, 3] = {}
  
-algebricNullSpaceRepresentatives[2][3, 2] = SparseArray[Automatic, {6, 6}, 0, 
+algebraicNullSpaceRepresentatives[2][3, 2] = SparseArray[Automatic, {6, 6}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 
       1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[2][3, 4] = {}
+algebraicNullSpaceRepresentatives[2][3, 4] = {}
  
-algebricNullSpaceRepresentatives[2][4, 3] = {}
+algebraicNullSpaceRepresentatives[2][4, 3] = {}
  
-algebricNullSpaceRepresentatives[2][4, 5] = SparseArray[Automatic, {6, 6}, 0, 
+algebraicNullSpaceRepresentatives[2][4, 5] = SparseArray[Automatic, {6, 6}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 
       1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[2][5, 4] = {}
+algebraicNullSpaceRepresentatives[2][5, 4] = {}
  
-algebricNullSpaceRepresentatives[2][5, 6] = {}
+algebraicNullSpaceRepresentatives[2][5, 6] = {}
  
-algebricNullSpaceRepresentatives[2][6, 5] = {}
+algebraicNullSpaceRepresentatives[2][6, 5] = {}
  
-algebricNullSpaceRepresentatives[2][6, 7] = {}
+algebraicNullSpaceRepresentatives[2][6, 7] = {}
  
-algebricNullSpaceRepresentatives[2][7, 6] = {}
+algebraicNullSpaceRepresentatives[2][7, 6] = {}
  
-algebricNullSpaceRepresentatives[2][7, 8] = {}
+algebraicNullSpaceRepresentatives[2][7, 8] = {}
  
-algebricNullSpaceRepresentatives[2][8, 7] = {}
+algebraicNullSpaceRepresentatives[2][8, 7] = {}
  
-algebricNullSpaceRepresentatives[2][8, 9] = {}
+algebraicNullSpaceRepresentatives[2][8, 9] = {}
  
-algebricNullSpaceRepresentatives[2][9, 1] = SparseArray[Automatic, {6, 6}, 0, 
+algebraicNullSpaceRepresentatives[2][9, 1] = SparseArray[Automatic, {6, 6}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 
       1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[2][9, 8] = {}
+algebraicNullSpaceRepresentatives[2][9, 8] = {}
  
-algebricNullSpaceRepresentatives[3][1, 2] = {}
+algebraicNullSpaceRepresentatives[3][1, 2] = {}
  
-algebricNullSpaceRepresentatives[3][1, 9] = SparseArray[Automatic, {5, 5}, 0, 
+algebraicNullSpaceRepresentatives[3][1, 9] = SparseArray[Automatic, {5, 5}, 0, 
      {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[3][2, 1] = {}
+algebraicNullSpaceRepresentatives[3][2, 1] = {}
  
-algebricNullSpaceRepresentatives[3][2, 3] = {}
+algebraicNullSpaceRepresentatives[3][2, 3] = {}
  
-algebricNullSpaceRepresentatives[3][3, 2] = {}
+algebraicNullSpaceRepresentatives[3][3, 2] = {}
  
-algebricNullSpaceRepresentatives[3][3, 4] = {}
+algebraicNullSpaceRepresentatives[3][3, 4] = {}
  
-algebricNullSpaceRepresentatives[3][4, 3] = {}
+algebraicNullSpaceRepresentatives[3][4, 3] = {}
  
-algebricNullSpaceRepresentatives[3][4, 5] = SparseArray[Automatic, {5, 5}, 0, 
+algebraicNullSpaceRepresentatives[3][4, 5] = SparseArray[Automatic, {5, 5}, 0, 
      {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[3][5, 4] = {}
+algebraicNullSpaceRepresentatives[3][5, 4] = {}
  
-algebricNullSpaceRepresentatives[3][5, 6] = {}
+algebraicNullSpaceRepresentatives[3][5, 6] = {}
  
-algebricNullSpaceRepresentatives[3][6, 5] = {}
+algebraicNullSpaceRepresentatives[3][6, 5] = {}
  
-algebricNullSpaceRepresentatives[3][6, 7] = {}
+algebraicNullSpaceRepresentatives[3][6, 7] = {}
  
-algebricNullSpaceRepresentatives[3][7, 6] = {}
+algebraicNullSpaceRepresentatives[3][7, 6] = {}
  
-algebricNullSpaceRepresentatives[3][7, 8] = SparseArray[Automatic, {5, 5}, 0, 
+algebraicNullSpaceRepresentatives[3][7, 8] = SparseArray[Automatic, {5, 5}, 0, 
      {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[3][8, 7] = {}
+algebraicNullSpaceRepresentatives[3][8, 7] = {}
  
-algebricNullSpaceRepresentatives[3][8, 9] = {}
+algebraicNullSpaceRepresentatives[3][8, 9] = {}
  
-algebricNullSpaceRepresentatives[3][9, 1] = {}
+algebraicNullSpaceRepresentatives[3][9, 1] = {}
  
-algebricNullSpaceRepresentatives[3][9, 8] = {}
+algebraicNullSpaceRepresentatives[3][9, 8] = {}
  
-algebricNullSpaceRepresentatives[4][1, 2] = {}
+algebraicNullSpaceRepresentatives[4][1, 2] = {}
  
-algebricNullSpaceRepresentatives[4][1, 9] = SparseArray[Automatic, {8, 9}, 0, 
+algebraicNullSpaceRepresentatives[4][1, 9] = SparseArray[Automatic, {8, 9}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[4][2, 1] = {}
+algebraicNullSpaceRepresentatives[4][2, 1] = {}
  
-algebricNullSpaceRepresentatives[4][2, 3] = {}
+algebraicNullSpaceRepresentatives[4][2, 3] = {}
  
-algebricNullSpaceRepresentatives[4][3, 2] = SparseArray[Automatic, {8, 9}, 0, 
+algebraicNullSpaceRepresentatives[4][3, 2] = SparseArray[Automatic, {8, 9}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 7, 8, 9}, {{9}, {8}, {7}, {6}, {5}, {3}, {4}, 
        {2}, {1}}}, {1, 1, 1, 1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[4][3, 4] = {}
+algebraicNullSpaceRepresentatives[4][3, 4] = {}
  
-algebricNullSpaceRepresentatives[4][4, 3] = {}
+algebraicNullSpaceRepresentatives[4][4, 3] = {}
  
-algebricNullSpaceRepresentatives[4][4, 5] = SparseArray[Automatic, {9, 9}, 0, 
+algebraicNullSpaceRepresentatives[4][4, 5] = SparseArray[Automatic, {9, 9}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{9}, {8}, {7}, {6}, {5}, {4}, {3}, 
        {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[4][5, 4] = {}
+algebraicNullSpaceRepresentatives[4][5, 4] = {}
  
-algebricNullSpaceRepresentatives[4][5, 6] = {}
+algebraicNullSpaceRepresentatives[4][5, 6] = {}
  
-algebricNullSpaceRepresentatives[4][6, 5] = {}
+algebraicNullSpaceRepresentatives[4][6, 5] = {}
  
-algebricNullSpaceRepresentatives[4][6, 7] = {}
+algebraicNullSpaceRepresentatives[4][6, 7] = {}
  
-algebricNullSpaceRepresentatives[4][7, 6] = SparseArray[Automatic, {9, 9}, 0, 
+algebraicNullSpaceRepresentatives[4][7, 6] = SparseArray[Automatic, {9, 9}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{9}, {8}, {7}, {6}, {5}, {4}, {3}, 
        {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[4][7, 8] = SparseArray[Automatic, {8, 9}, 0, 
+algebraicNullSpaceRepresentatives[4][7, 8] = SparseArray[Automatic, {8, 9}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{9}, {8}, {7}, {6}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[4][8, 7] = {}
+algebraicNullSpaceRepresentatives[4][8, 7] = {}
  
-algebricNullSpaceRepresentatives[4][8, 9] = {}
+algebraicNullSpaceRepresentatives[4][8, 9] = {}
  
-algebricNullSpaceRepresentatives[4][9, 1] = SparseArray[Automatic, {8, 9}, 0, 
+algebraicNullSpaceRepresentatives[4][9, 1] = SparseArray[Automatic, {8, 9}, 0, 
      {1, {{0, 1, 2, 3, 5, 7, 9, 11, 13}, {{9}, {8}, {7}, {1}, {6}, {1}, {5}, 
        {1}, {4}, {1}, {3}, {1}, {2}}}, {1, 1, 1, -1, 1, -1, 1, -1, 1, -1, 1, 
       1, 1}}]
  
-algebricNullSpaceRepresentatives[4][9, 8] = {}
+algebraicNullSpaceRepresentatives[4][9, 8] = {}
  
-algebricNullSpaceRepresentatives[5][1, 2] = {}
+algebraicNullSpaceRepresentatives[5][1, 2] = {}
  
-algebricNullSpaceRepresentatives[5][1, 9] = {}
+algebraicNullSpaceRepresentatives[5][1, 9] = {}
  
-algebricNullSpaceRepresentatives[5][2, 1] = {}
+algebraicNullSpaceRepresentatives[5][2, 1] = {}
  
-algebricNullSpaceRepresentatives[5][2, 3] = {}
+algebraicNullSpaceRepresentatives[5][2, 3] = {}
  
-algebricNullSpaceRepresentatives[5][3, 2] = SparseArray[Automatic, {7, 7}, 0, 
+algebraicNullSpaceRepresentatives[5][3, 2] = SparseArray[Automatic, {7, 7}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, {1, 
       1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[5][3, 4] = {}
+algebraicNullSpaceRepresentatives[5][3, 4] = {}
  
-algebricNullSpaceRepresentatives[5][4, 3] = {}
+algebraicNullSpaceRepresentatives[5][4, 3] = {}
  
-algebricNullSpaceRepresentatives[5][4, 5] = SparseArray[Automatic, {7, 7}, 0, 
+algebraicNullSpaceRepresentatives[5][4, 5] = SparseArray[Automatic, {7, 7}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, {1, 
       1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[5][5, 4] = {}
+algebraicNullSpaceRepresentatives[5][5, 4] = {}
  
-algebricNullSpaceRepresentatives[5][5, 6] = {}
+algebraicNullSpaceRepresentatives[5][5, 6] = {}
  
-algebricNullSpaceRepresentatives[5][6, 5] = {}
+algebraicNullSpaceRepresentatives[5][6, 5] = {}
  
-algebricNullSpaceRepresentatives[5][6, 7] = {}
+algebraicNullSpaceRepresentatives[5][6, 7] = {}
  
-algebricNullSpaceRepresentatives[5][7, 6] = {}
+algebraicNullSpaceRepresentatives[5][7, 6] = {}
  
-algebricNullSpaceRepresentatives[5][7, 8] = SparseArray[Automatic, {6, 7}, 0, 
+algebraicNullSpaceRepresentatives[5][7, 8] = SparseArray[Automatic, {6, 7}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 
       1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[5][8, 7] = SparseArray[Automatic, {6, 7}, 0, 
+algebraicNullSpaceRepresentatives[5][8, 7] = SparseArray[Automatic, {6, 7}, 0, 
      {1, {{0, 1, 2, 3, 5, 6, 7}, {{7}, {6}, {5}, {3}, {4}, {2}, {1}}}, {1, 1, 
       1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[5][8, 9] = {}
+algebraicNullSpaceRepresentatives[5][8, 9] = {}
  
-algebricNullSpaceRepresentatives[5][9, 1] = SparseArray[Automatic, {7, 7}, 0, 
+algebraicNullSpaceRepresentatives[5][9, 1] = SparseArray[Automatic, {7, 7}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, {1, 
       1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[5][9, 8] = {}
+algebraicNullSpaceRepresentatives[5][9, 8] = {}
  
-algebricNullSpaceRepresentatives[6][1, 2] = SparseArray[Automatic, {10, 10}, 
+algebraicNullSpaceRepresentatives[6][1, 2] = SparseArray[Automatic, {10, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{10}, {9}, {8}, {7}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[6][1, 9] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[6][1, 9] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{9}, {8}, {7}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[6][2, 1] = {}
+algebraicNullSpaceRepresentatives[6][2, 1] = {}
  
-algebricNullSpaceRepresentatives[6][2, 3] = {}
+algebraicNullSpaceRepresentatives[6][2, 3] = {}
  
-algebricNullSpaceRepresentatives[6][3, 2] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[6][3, 2] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 5, 6, 7, 8, 9, 10}, {{10}, {9}, {8}, {3}, {7}, {6}, 
        {5}, {4}, {2}, {1}}}, {1, 1, 1, -1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[6][3, 4] = {}
+algebraicNullSpaceRepresentatives[6][3, 4] = {}
  
-algebricNullSpaceRepresentatives[6][4, 3] = {}
+algebraicNullSpaceRepresentatives[6][4, 3] = {}
  
-algebricNullSpaceRepresentatives[6][4, 5] = SparseArray[Automatic, {10, 10}, 
+algebraicNullSpaceRepresentatives[6][4, 5] = SparseArray[Automatic, {10, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{10}, {9}, {8}, {7}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[6][5, 4] = {}
+algebraicNullSpaceRepresentatives[6][5, 4] = {}
  
-algebricNullSpaceRepresentatives[6][5, 6] = {}
+algebraicNullSpaceRepresentatives[6][5, 6] = {}
  
-algebricNullSpaceRepresentatives[6][6, 5] = {}
+algebraicNullSpaceRepresentatives[6][6, 5] = {}
  
-algebricNullSpaceRepresentatives[6][6, 7] = {}
+algebraicNullSpaceRepresentatives[6][6, 7] = {}
  
-algebricNullSpaceRepresentatives[6][7, 6] = {}
+algebraicNullSpaceRepresentatives[6][7, 6] = {}
  
-algebricNullSpaceRepresentatives[6][7, 8] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[6][7, 8] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {9}, {8}, {7}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[6][8, 7] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[6][8, 7] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 2, 4, 5, 6, 7, 8, 10, 11, 13}, {{1}, {10}, {1}, {9}, {8}, 
        {7}, {6}, {5}, {1}, {4}, {3}, {1}, {2}}}, {-1, 1, -1, 1, 1, 1, 1, 1, 
       -1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[6][8, 9] = {}
+algebraicNullSpaceRepresentatives[6][8, 9] = {}
  
-algebricNullSpaceRepresentatives[6][9, 1] = {}
+algebraicNullSpaceRepresentatives[6][9, 1] = {}
  
-algebricNullSpaceRepresentatives[6][9, 8] = {}
+algebraicNullSpaceRepresentatives[6][9, 8] = {}
  
-algebricNullSpaceRepresentatives[7][1, 2] = {}
+algebraicNullSpaceRepresentatives[7][1, 2] = {}
  
-algebricNullSpaceRepresentatives[7][1, 9] = SparseArray[Automatic, {6, 6}, 0, 
+algebraicNullSpaceRepresentatives[7][1, 9] = SparseArray[Automatic, {6, 6}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 
       1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[7][2, 1] = {}
+algebraicNullSpaceRepresentatives[7][2, 1] = {}
  
-algebricNullSpaceRepresentatives[7][2, 3] = {}
+algebraicNullSpaceRepresentatives[7][2, 3] = {}
  
-algebricNullSpaceRepresentatives[7][3, 2] = SparseArray[Automatic, {6, 6}, 0, 
+algebraicNullSpaceRepresentatives[7][3, 2] = SparseArray[Automatic, {6, 6}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 
       1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[7][3, 4] = {}
+algebraicNullSpaceRepresentatives[7][3, 4] = {}
  
-algebricNullSpaceRepresentatives[7][4, 3] = {}
+algebraicNullSpaceRepresentatives[7][4, 3] = {}
  
-algebricNullSpaceRepresentatives[7][4, 5] = SparseArray[Automatic, {6, 6}, 0, 
+algebraicNullSpaceRepresentatives[7][4, 5] = SparseArray[Automatic, {6, 6}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 
       1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[7][5, 4] = {}
+algebraicNullSpaceRepresentatives[7][5, 4] = {}
  
-algebricNullSpaceRepresentatives[7][5, 6] = {}
+algebraicNullSpaceRepresentatives[7][5, 6] = {}
  
-algebricNullSpaceRepresentatives[7][6, 5] = {}
+algebraicNullSpaceRepresentatives[7][6, 5] = {}
  
-algebricNullSpaceRepresentatives[7][6, 7] = SparseArray[Automatic, {6, 6}, 0, 
+algebraicNullSpaceRepresentatives[7][6, 7] = SparseArray[Automatic, {6, 6}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 
       1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[7][7, 6] = {}
+algebraicNullSpaceRepresentatives[7][7, 6] = {}
  
-algebricNullSpaceRepresentatives[7][7, 8] = {}
+algebraicNullSpaceRepresentatives[7][7, 8] = {}
  
-algebricNullSpaceRepresentatives[7][8, 7] = {}
+algebraicNullSpaceRepresentatives[7][8, 7] = {}
  
-algebricNullSpaceRepresentatives[7][8, 9] = {}
+algebraicNullSpaceRepresentatives[7][8, 9] = {}
  
-algebricNullSpaceRepresentatives[7][9, 1] = SparseArray[Automatic, {6, 6}, 0, 
+algebraicNullSpaceRepresentatives[7][9, 1] = SparseArray[Automatic, {6, 6}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 
       1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[7][9, 8] = {}
+algebraicNullSpaceRepresentatives[7][9, 8] = {}
  
-algebricNullSpaceRepresentatives[8][1, 2] = {}
+algebraicNullSpaceRepresentatives[8][1, 2] = {}
  
-algebricNullSpaceRepresentatives[8][1, 9] = {}
+algebraicNullSpaceRepresentatives[8][1, 9] = {}
  
-algebricNullSpaceRepresentatives[8][2, 1] = {}
+algebraicNullSpaceRepresentatives[8][2, 1] = {}
  
-algebricNullSpaceRepresentatives[8][2, 3] = SparseArray[Automatic, {7, 8}, 0, 
+algebraicNullSpaceRepresentatives[8][2, 3] = SparseArray[Automatic, {7, 8}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{8}, {7}, {5}, {4}, {3}, {2}, {1}}}, {1, 
       1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[8][3, 2] = SparseArray[Automatic, {7, 8}, 0, 
+algebraicNullSpaceRepresentatives[8][3, 2] = SparseArray[Automatic, {7, 8}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {1}, 
        {2}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[8][3, 4] = {}
+algebraicNullSpaceRepresentatives[8][3, 4] = {}
  
-algebricNullSpaceRepresentatives[8][4, 3] = {}
+algebraicNullSpaceRepresentatives[8][4, 3] = {}
  
-algebricNullSpaceRepresentatives[8][4, 5] = SparseArray[Automatic, {8, 8}, 0, 
+algebraicNullSpaceRepresentatives[8][4, 5] = SparseArray[Automatic, {8, 8}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[8][5, 4] = {}
+algebraicNullSpaceRepresentatives[8][5, 4] = {}
  
-algebricNullSpaceRepresentatives[8][5, 6] = {}
+algebraicNullSpaceRepresentatives[8][5, 6] = {}
  
-algebricNullSpaceRepresentatives[8][6, 5] = {}
+algebraicNullSpaceRepresentatives[8][6, 5] = {}
  
-algebricNullSpaceRepresentatives[8][6, 7] = {}
+algebraicNullSpaceRepresentatives[8][6, 7] = {}
  
-algebricNullSpaceRepresentatives[8][7, 6] = SparseArray[Automatic, {7, 8}, 0, 
+algebraicNullSpaceRepresentatives[8][7, 6] = SparseArray[Automatic, {7, 8}, 0, 
      {1, {{0, 1, 2, 3, 4, 6, 7, 8}, {{8}, {7}, {6}, {5}, {3}, {4}, {2}, 
        {1}}}, {1, 1, 1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[8][7, 8] = SparseArray[Automatic, {7, 8}, 0, 
+algebraicNullSpaceRepresentatives[8][7, 8] = SparseArray[Automatic, {7, 8}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, {1, 
       1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[8][8, 7] = {}
+algebraicNullSpaceRepresentatives[8][8, 7] = {}
  
-algebricNullSpaceRepresentatives[8][8, 9] = {}
+algebraicNullSpaceRepresentatives[8][8, 9] = {}
  
-algebricNullSpaceRepresentatives[8][9, 1] = SparseArray[Automatic, {8, 8}, 0, 
+algebraicNullSpaceRepresentatives[8][9, 1] = SparseArray[Automatic, {8, 8}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[8][9, 8] = SparseArray[Automatic, {8, 8}, 0, 
+algebraicNullSpaceRepresentatives[8][9, 8] = SparseArray[Automatic, {8, 8}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[9][1, 2] = {}
+algebraicNullSpaceRepresentatives[9][1, 2] = {}
  
-algebricNullSpaceRepresentatives[9][1, 9] = SparseArray[Automatic, {8, 8}, 0, 
+algebraicNullSpaceRepresentatives[9][1, 9] = SparseArray[Automatic, {8, 8}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[9][2, 1] = {}
+algebraicNullSpaceRepresentatives[9][2, 1] = {}
  
-algebricNullSpaceRepresentatives[9][2, 3] = SparseArray[Automatic, {7, 8}, 0, 
+algebraicNullSpaceRepresentatives[9][2, 3] = SparseArray[Automatic, {7, 8}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{8}, {6}, {5}, {4}, {3}, {2}, {1}}}, {1, 
       1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[9][3, 2] = SparseArray[Automatic, {7, 8}, 0, 
+algebraicNullSpaceRepresentatives[9][3, 2] = SparseArray[Automatic, {7, 8}, 0, 
      {1, {{0, 2, 3, 4, 5, 6, 7, 8}, {{3}, {8}, {7}, {6}, {5}, {4}, {2}, 
        {1}}}, {-1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[9][3, 4] = {}
+algebraicNullSpaceRepresentatives[9][3, 4] = {}
  
-algebricNullSpaceRepresentatives[9][4, 3] = {}
+algebraicNullSpaceRepresentatives[9][4, 3] = {}
  
-algebricNullSpaceRepresentatives[9][4, 5] = SparseArray[Automatic, {8, 8}, 0, 
+algebraicNullSpaceRepresentatives[9][4, 5] = SparseArray[Automatic, {8, 8}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[9][5, 4] = {}
+algebraicNullSpaceRepresentatives[9][5, 4] = {}
  
-algebricNullSpaceRepresentatives[9][5, 6] = {}
+algebraicNullSpaceRepresentatives[9][5, 6] = {}
  
-algebricNullSpaceRepresentatives[9][6, 5] = {}
+algebraicNullSpaceRepresentatives[9][6, 5] = {}
  
-algebricNullSpaceRepresentatives[9][6, 7] = {}
+algebraicNullSpaceRepresentatives[9][6, 7] = {}
  
-algebricNullSpaceRepresentatives[9][7, 6] = SparseArray[Automatic, {7, 8}, 0, 
+algebraicNullSpaceRepresentatives[9][7, 6] = SparseArray[Automatic, {7, 8}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {1}, 
        {2}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[9][7, 8] = SparseArray[Automatic, {7, 8}, 0, 
+algebraicNullSpaceRepresentatives[9][7, 8] = SparseArray[Automatic, {7, 8}, 0, 
      {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{8}, {7}, {5}, {4}, {3}, {2}, {1}}}, {1, 
       1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[9][8, 7] = {}
+algebraicNullSpaceRepresentatives[9][8, 7] = {}
  
-algebricNullSpaceRepresentatives[9][8, 9] = {}
+algebraicNullSpaceRepresentatives[9][8, 9] = {}
  
-algebricNullSpaceRepresentatives[9][9, 1] = {}
+algebraicNullSpaceRepresentatives[9][9, 1] = {}
  
-algebricNullSpaceRepresentatives[9][9, 8] = {}
+algebraicNullSpaceRepresentatives[9][9, 8] = {}
  
-algebricNullSpaceRepresentatives[10][1, 2] = {}
+algebraicNullSpaceRepresentatives[10][1, 2] = {}
  
-algebricNullSpaceRepresentatives[10][1, 9] = {}
+algebraicNullSpaceRepresentatives[10][1, 9] = {}
  
-algebricNullSpaceRepresentatives[10][2, 1] = {}
+algebraicNullSpaceRepresentatives[10][2, 1] = {}
  
-algebricNullSpaceRepresentatives[10][2, 3] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[10][2, 3] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{7}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[10][3, 2] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[10][3, 2] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 7}, {{7}, {6}, {5}, {4}, {3}, {1}, {2}}}, {1, 
       1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[10][3, 4] = {}
+algebraicNullSpaceRepresentatives[10][3, 4] = {}
  
-algebricNullSpaceRepresentatives[10][4, 3] = {}
+algebraicNullSpaceRepresentatives[10][4, 3] = {}
  
-algebricNullSpaceRepresentatives[10][4, 5] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[10][4, 5] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[10][5, 4] = {}
+algebraicNullSpaceRepresentatives[10][5, 4] = {}
  
-algebricNullSpaceRepresentatives[10][5, 6] = {}
+algebraicNullSpaceRepresentatives[10][5, 6] = {}
  
-algebricNullSpaceRepresentatives[10][6, 5] = {}
+algebraicNullSpaceRepresentatives[10][6, 5] = {}
  
-algebricNullSpaceRepresentatives[10][6, 7] = {}
+algebraicNullSpaceRepresentatives[10][6, 7] = {}
  
-algebricNullSpaceRepresentatives[10][7, 6] = {}
+algebraicNullSpaceRepresentatives[10][7, 6] = {}
  
-algebricNullSpaceRepresentatives[10][7, 8] = {}
+algebraicNullSpaceRepresentatives[10][7, 8] = {}
  
-algebricNullSpaceRepresentatives[10][8, 7] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[10][8, 7] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[10][8, 9] = {}
+algebraicNullSpaceRepresentatives[10][8, 9] = {}
  
-algebricNullSpaceRepresentatives[10][9, 1] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[10][9, 1] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[10][9, 8] = {}
+algebraicNullSpaceRepresentatives[10][9, 8] = {}
  
-algebricNullSpaceRepresentatives[11][1, 2] = {}
+algebraicNullSpaceRepresentatives[11][1, 2] = {}
  
-algebricNullSpaceRepresentatives[11][1, 9] = {}
+algebraicNullSpaceRepresentatives[11][1, 9] = {}
  
-algebricNullSpaceRepresentatives[11][2, 1] = {}
+algebraicNullSpaceRepresentatives[11][2, 1] = {}
  
-algebricNullSpaceRepresentatives[11][2, 3] = {}
+algebraicNullSpaceRepresentatives[11][2, 3] = {}
  
-algebricNullSpaceRepresentatives[11][3, 2] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[11][3, 2] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[11][3, 4] = {}
+algebraicNullSpaceRepresentatives[11][3, 4] = {}
  
-algebricNullSpaceRepresentatives[11][4, 3] = {}
+algebraicNullSpaceRepresentatives[11][4, 3] = {}
  
-algebricNullSpaceRepresentatives[11][4, 5] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[11][4, 5] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[11][5, 4] = {}
+algebraicNullSpaceRepresentatives[11][5, 4] = {}
  
-algebricNullSpaceRepresentatives[11][5, 6] = {}
+algebraicNullSpaceRepresentatives[11][5, 6] = {}
  
-algebricNullSpaceRepresentatives[11][6, 5] = {}
+algebraicNullSpaceRepresentatives[11][6, 5] = {}
  
-algebricNullSpaceRepresentatives[11][6, 7] = {}
+algebraicNullSpaceRepresentatives[11][6, 7] = {}
  
-algebricNullSpaceRepresentatives[11][7, 6] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[11][7, 6] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[11][7, 8] = {}
+algebraicNullSpaceRepresentatives[11][7, 8] = {}
  
-algebricNullSpaceRepresentatives[11][8, 7] = {}
+algebraicNullSpaceRepresentatives[11][8, 7] = {}
  
-algebricNullSpaceRepresentatives[11][8, 9] = {}
+algebraicNullSpaceRepresentatives[11][8, 9] = {}
  
-algebricNullSpaceRepresentatives[11][9, 1] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[11][9, 1] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[11][9, 8] = {}
+algebraicNullSpaceRepresentatives[11][9, 8] = {}
  
-algebricNullSpaceRepresentatives[12][1, 2] = {}
+algebraicNullSpaceRepresentatives[12][1, 2] = {}
  
-algebricNullSpaceRepresentatives[12][1, 9] = {}
+algebraicNullSpaceRepresentatives[12][1, 9] = {}
  
-algebricNullSpaceRepresentatives[12][2, 1] = {}
+algebraicNullSpaceRepresentatives[12][2, 1] = {}
  
-algebricNullSpaceRepresentatives[12][2, 3] = {}
+algebraicNullSpaceRepresentatives[12][2, 3] = {}
  
-algebricNullSpaceRepresentatives[12][3, 2] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[12][3, 2] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[12][3, 4] = {}
+algebraicNullSpaceRepresentatives[12][3, 4] = {}
  
-algebricNullSpaceRepresentatives[12][4, 3] = {}
+algebraicNullSpaceRepresentatives[12][4, 3] = {}
  
-algebricNullSpaceRepresentatives[12][4, 5] = {}
+algebraicNullSpaceRepresentatives[12][4, 5] = {}
  
-algebricNullSpaceRepresentatives[12][5, 4] = {}
+algebraicNullSpaceRepresentatives[12][5, 4] = {}
  
-algebricNullSpaceRepresentatives[12][5, 6] = {}
+algebraicNullSpaceRepresentatives[12][5, 6] = {}
  
-algebricNullSpaceRepresentatives[12][6, 5] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[12][6, 5] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[12][6, 7] = {}
+algebraicNullSpaceRepresentatives[12][6, 7] = {}
  
-algebricNullSpaceRepresentatives[12][7, 6] = {}
+algebraicNullSpaceRepresentatives[12][7, 6] = {}
  
-algebricNullSpaceRepresentatives[12][7, 8] = {}
+algebraicNullSpaceRepresentatives[12][7, 8] = {}
  
-algebricNullSpaceRepresentatives[12][8, 7] = {}
+algebraicNullSpaceRepresentatives[12][8, 7] = {}
  
-algebricNullSpaceRepresentatives[12][8, 9] = {}
+algebraicNullSpaceRepresentatives[12][8, 9] = {}
  
-algebricNullSpaceRepresentatives[12][9, 1] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[12][9, 1] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[12][9, 8] = {}
+algebraicNullSpaceRepresentatives[12][9, 8] = {}
  
-algebricNullSpaceRepresentatives[13][1, 2] = {}
+algebraicNullSpaceRepresentatives[13][1, 2] = {}
  
-algebricNullSpaceRepresentatives[13][1, 9] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[13][1, 9] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[13][2, 1] = {}
+algebraicNullSpaceRepresentatives[13][2, 1] = {}
  
-algebricNullSpaceRepresentatives[13][2, 3] = {}
+algebraicNullSpaceRepresentatives[13][2, 3] = {}
  
-algebricNullSpaceRepresentatives[13][3, 2] = {}
+algebraicNullSpaceRepresentatives[13][3, 2] = {}
  
-algebricNullSpaceRepresentatives[13][3, 4] = {}
+algebraicNullSpaceRepresentatives[13][3, 4] = {}
  
-algebricNullSpaceRepresentatives[13][4, 3] = {}
+algebraicNullSpaceRepresentatives[13][4, 3] = {}
  
-algebricNullSpaceRepresentatives[13][4, 5] = {}
+algebraicNullSpaceRepresentatives[13][4, 5] = {}
  
-algebricNullSpaceRepresentatives[13][5, 4] = {}
+algebraicNullSpaceRepresentatives[13][5, 4] = {}
  
-algebricNullSpaceRepresentatives[13][5, 6] = {}
+algebraicNullSpaceRepresentatives[13][5, 6] = {}
  
-algebricNullSpaceRepresentatives[13][6, 5] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[13][6, 5] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[13][6, 7] = {}
+algebraicNullSpaceRepresentatives[13][6, 7] = {}
  
-algebricNullSpaceRepresentatives[13][7, 6] = {}
+algebraicNullSpaceRepresentatives[13][7, 6] = {}
  
-algebricNullSpaceRepresentatives[13][7, 8] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[13][7, 8] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[13][8, 7] = {}
+algebraicNullSpaceRepresentatives[13][8, 7] = {}
  
-algebricNullSpaceRepresentatives[13][8, 9] = {}
+algebraicNullSpaceRepresentatives[13][8, 9] = {}
  
-algebricNullSpaceRepresentatives[13][9, 1] = {}
+algebraicNullSpaceRepresentatives[13][9, 1] = {}
  
-algebricNullSpaceRepresentatives[13][9, 8] = {}
+algebraicNullSpaceRepresentatives[13][9, 8] = {}
  
-algebricNullSpaceRepresentatives[14][1, 2] = {}
+algebraicNullSpaceRepresentatives[14][1, 2] = {}
  
-algebricNullSpaceRepresentatives[14][1, 9] = {}
+algebraicNullSpaceRepresentatives[14][1, 9] = {}
  
-algebricNullSpaceRepresentatives[14][2, 1] = {}
+algebraicNullSpaceRepresentatives[14][2, 1] = {}
  
-algebricNullSpaceRepresentatives[14][2, 3] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[14][2, 3] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {9}, {8}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[14][3, 2] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[14][3, 2] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 8, 9, 10}, {{10}, {9}, {8}, {7}, {6}, {5}, 
        {3}, {4}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[14][3, 4] = {}
+algebraicNullSpaceRepresentatives[14][3, 4] = {}
  
-algebricNullSpaceRepresentatives[14][4, 3] = {}
+algebraicNullSpaceRepresentatives[14][4, 3] = {}
  
-algebricNullSpaceRepresentatives[14][4, 5] = {}
+algebraicNullSpaceRepresentatives[14][4, 5] = {}
  
-algebricNullSpaceRepresentatives[14][5, 4] = {}
+algebraicNullSpaceRepresentatives[14][5, 4] = {}
  
-algebricNullSpaceRepresentatives[14][5, 6] = {}
+algebraicNullSpaceRepresentatives[14][5, 6] = {}
  
-algebricNullSpaceRepresentatives[14][6, 5] = SparseArray[Automatic, {10, 10}, 
+algebraicNullSpaceRepresentatives[14][6, 5] = SparseArray[Automatic, {10, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{10}, {9}, {8}, {7}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[14][6, 7] = {}
+algebraicNullSpaceRepresentatives[14][6, 7] = {}
  
-algebricNullSpaceRepresentatives[14][7, 6] = {}
+algebraicNullSpaceRepresentatives[14][7, 6] = {}
  
-algebricNullSpaceRepresentatives[14][7, 8] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[14][7, 8] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {9}, {7}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[14][8, 7] = {}
+algebraicNullSpaceRepresentatives[14][8, 7] = {}
  
-algebricNullSpaceRepresentatives[14][8, 9] = {}
+algebraicNullSpaceRepresentatives[14][8, 9] = {}
  
-algebricNullSpaceRepresentatives[14][9, 1] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[14][9, 1] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 4, 6, 7, 9, 11, 13, 15}, {{10}, {9}, {1}, {8}, {1}, 
        {7}, {6}, {1}, {5}, {1}, {4}, {1}, {3}, {1}, {2}}}, {1, 1, -1, 1, -1, 
       1, 1, -1, 1, -1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[14][9, 8] = SparseArray[Automatic, {10, 10}, 
+algebraicNullSpaceRepresentatives[14][9, 8] = SparseArray[Automatic, {10, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{10}, {9}, {8}, {7}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[15][1, 2] = {}
+algebraicNullSpaceRepresentatives[15][1, 2] = {}
  
-algebricNullSpaceRepresentatives[15][1, 9] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[15][1, 9] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[15][2, 1] = {}
+algebraicNullSpaceRepresentatives[15][2, 1] = {}
  
-algebricNullSpaceRepresentatives[15][2, 3] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[15][2, 3] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[15][3, 2] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[15][3, 2] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 3, 4, 6, 7, 8}, {{7}, {3}, {6}, {5}, {3}, {4}, {2}, 
        {1}}}, {1, -1, 1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[15][3, 4] = {}
+algebraicNullSpaceRepresentatives[15][3, 4] = {}
  
-algebricNullSpaceRepresentatives[15][4, 3] = {}
+algebraicNullSpaceRepresentatives[15][4, 3] = {}
  
-algebricNullSpaceRepresentatives[15][4, 5] = {}
+algebraicNullSpaceRepresentatives[15][4, 5] = {}
  
-algebricNullSpaceRepresentatives[15][5, 4] = {}
+algebraicNullSpaceRepresentatives[15][5, 4] = {}
  
-algebricNullSpaceRepresentatives[15][5, 6] = {}
+algebraicNullSpaceRepresentatives[15][5, 6] = {}
  
-algebricNullSpaceRepresentatives[15][6, 5] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[15][6, 5] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[15][6, 7] = {}
+algebraicNullSpaceRepresentatives[15][6, 7] = {}
  
-algebricNullSpaceRepresentatives[15][7, 6] = {}
+algebraicNullSpaceRepresentatives[15][7, 6] = {}
  
-algebricNullSpaceRepresentatives[15][7, 8] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[15][7, 8] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[15][8, 7] = {}
+algebraicNullSpaceRepresentatives[15][8, 7] = {}
  
-algebricNullSpaceRepresentatives[15][8, 9] = {}
+algebraicNullSpaceRepresentatives[15][8, 9] = {}
  
-algebricNullSpaceRepresentatives[15][9, 1] = {}
+algebraicNullSpaceRepresentatives[15][9, 1] = {}
  
-algebricNullSpaceRepresentatives[15][9, 8] = {}
+algebraicNullSpaceRepresentatives[15][9, 8] = {}
  
-algebricNullSpaceRepresentatives[16][1, 2] = {}
+algebraicNullSpaceRepresentatives[16][1, 2] = {}
  
-algebricNullSpaceRepresentatives[16][1, 9] = {}
+algebraicNullSpaceRepresentatives[16][1, 9] = {}
  
-algebricNullSpaceRepresentatives[16][2, 1] = {}
+algebraicNullSpaceRepresentatives[16][2, 1] = {}
  
-algebricNullSpaceRepresentatives[16][2, 3] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[16][2, 3] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[16][3, 2] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[16][3, 2] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[16][3, 4] = {}
+algebraicNullSpaceRepresentatives[16][3, 4] = {}
  
-algebricNullSpaceRepresentatives[16][4, 3] = {}
+algebraicNullSpaceRepresentatives[16][4, 3] = {}
  
-algebricNullSpaceRepresentatives[16][4, 5] = {}
+algebraicNullSpaceRepresentatives[16][4, 5] = {}
  
-algebricNullSpaceRepresentatives[16][5, 4] = {}
+algebraicNullSpaceRepresentatives[16][5, 4] = {}
  
-algebricNullSpaceRepresentatives[16][5, 6] = {}
+algebraicNullSpaceRepresentatives[16][5, 6] = {}
  
-algebricNullSpaceRepresentatives[16][6, 5] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[16][6, 5] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[16][6, 7] = {}
+algebraicNullSpaceRepresentatives[16][6, 7] = {}
  
-algebricNullSpaceRepresentatives[16][7, 6] = {}
+algebraicNullSpaceRepresentatives[16][7, 6] = {}
  
-algebricNullSpaceRepresentatives[16][7, 8] = {}
+algebraicNullSpaceRepresentatives[16][7, 8] = {}
  
-algebricNullSpaceRepresentatives[16][8, 7] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[16][8, 7] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[16][8, 9] = {}
+algebraicNullSpaceRepresentatives[16][8, 9] = {}
  
-algebricNullSpaceRepresentatives[16][9, 1] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[16][9, 1] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[16][9, 8] = {}
+algebraicNullSpaceRepresentatives[16][9, 8] = {}
  
-algebricNullSpaceRepresentatives[17][1, 2] = {}
+algebraicNullSpaceRepresentatives[17][1, 2] = {}
  
-algebricNullSpaceRepresentatives[17][1, 9] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[17][1, 9] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[17][2, 1] = {}
+algebraicNullSpaceRepresentatives[17][2, 1] = {}
  
-algebricNullSpaceRepresentatives[17][2, 3] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[17][2, 3] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[17][3, 2] = {}
+algebraicNullSpaceRepresentatives[17][3, 2] = {}
  
-algebricNullSpaceRepresentatives[17][3, 4] = {}
+algebraicNullSpaceRepresentatives[17][3, 4] = {}
  
-algebricNullSpaceRepresentatives[17][4, 3] = {}
+algebraicNullSpaceRepresentatives[17][4, 3] = {}
  
-algebricNullSpaceRepresentatives[17][4, 5] = {}
+algebraicNullSpaceRepresentatives[17][4, 5] = {}
  
-algebricNullSpaceRepresentatives[17][5, 4] = {}
+algebraicNullSpaceRepresentatives[17][5, 4] = {}
  
-algebricNullSpaceRepresentatives[17][5, 6] = {}
+algebraicNullSpaceRepresentatives[17][5, 6] = {}
  
-algebricNullSpaceRepresentatives[17][6, 5] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[17][6, 5] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[17][6, 7] = {}
+algebraicNullSpaceRepresentatives[17][6, 7] = {}
  
-algebricNullSpaceRepresentatives[17][7, 6] = {}
+algebraicNullSpaceRepresentatives[17][7, 6] = {}
  
-algebricNullSpaceRepresentatives[17][7, 8] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[17][7, 8] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{7}, {6}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[17][8, 7] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[17][8, 7] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 2, 3, 4, 5, 6, 8}, {{1}, {7}, {6}, {5}, {4}, {3}, {1}, 
        {2}}}, {-1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[17][8, 9] = {}
+algebraicNullSpaceRepresentatives[17][8, 9] = {}
  
-algebricNullSpaceRepresentatives[17][9, 1] = {}
+algebraicNullSpaceRepresentatives[17][9, 1] = {}
  
-algebricNullSpaceRepresentatives[17][9, 8] = {}
+algebraicNullSpaceRepresentatives[17][9, 8] = {}
  
-algebricNullSpaceRepresentatives[18][1, 2] = {}
+algebraicNullSpaceRepresentatives[18][1, 2] = {}
  
-algebricNullSpaceRepresentatives[18][1, 9] = {}
+algebraicNullSpaceRepresentatives[18][1, 9] = {}
  
-algebricNullSpaceRepresentatives[18][2, 1] = {}
+algebraicNullSpaceRepresentatives[18][2, 1] = {}
  
-algebricNullSpaceRepresentatives[18][2, 3] = {}
+algebraicNullSpaceRepresentatives[18][2, 3] = {}
  
-algebricNullSpaceRepresentatives[18][3, 2] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[18][3, 2] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[18][3, 4] = {}
+algebraicNullSpaceRepresentatives[18][3, 4] = {}
  
-algebricNullSpaceRepresentatives[18][4, 3] = {}
+algebraicNullSpaceRepresentatives[18][4, 3] = {}
  
-algebricNullSpaceRepresentatives[18][4, 5] = {}
+algebraicNullSpaceRepresentatives[18][4, 5] = {}
  
-algebricNullSpaceRepresentatives[18][5, 4] = {}
+algebraicNullSpaceRepresentatives[18][5, 4] = {}
  
-algebricNullSpaceRepresentatives[18][5, 6] = {}
+algebraicNullSpaceRepresentatives[18][5, 6] = {}
  
-algebricNullSpaceRepresentatives[18][6, 5] = {}
+algebraicNullSpaceRepresentatives[18][6, 5] = {}
  
-algebricNullSpaceRepresentatives[18][6, 7] = {}
+algebraicNullSpaceRepresentatives[18][6, 7] = {}
  
-algebricNullSpaceRepresentatives[18][7, 6] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[18][7, 6] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[18][7, 8] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[18][7, 8] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[18][8, 7] = {}
+algebraicNullSpaceRepresentatives[18][8, 7] = {}
  
-algebricNullSpaceRepresentatives[18][8, 9] = {}
+algebraicNullSpaceRepresentatives[18][8, 9] = {}
  
-algebricNullSpaceRepresentatives[18][9, 1] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[18][9, 1] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[18][9, 8] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[18][9, 8] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[19][1, 2] = {}
+algebraicNullSpaceRepresentatives[19][1, 2] = {}
  
-algebricNullSpaceRepresentatives[19][1, 9] = {}
+algebraicNullSpaceRepresentatives[19][1, 9] = {}
  
-algebricNullSpaceRepresentatives[19][2, 1] = {}
+algebraicNullSpaceRepresentatives[19][2, 1] = {}
  
-algebricNullSpaceRepresentatives[19][2, 3] = {}
+algebraicNullSpaceRepresentatives[19][2, 3] = {}
  
-algebricNullSpaceRepresentatives[19][3, 2] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[19][3, 2] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[19][3, 4] = {}
+algebraicNullSpaceRepresentatives[19][3, 4] = {}
  
-algebricNullSpaceRepresentatives[19][4, 3] = {}
+algebraicNullSpaceRepresentatives[19][4, 3] = {}
  
-algebricNullSpaceRepresentatives[19][4, 5] = {}
+algebraicNullSpaceRepresentatives[19][4, 5] = {}
  
-algebricNullSpaceRepresentatives[19][5, 4] = {}
+algebraicNullSpaceRepresentatives[19][5, 4] = {}
  
-algebricNullSpaceRepresentatives[19][5, 6] = {}
+algebraicNullSpaceRepresentatives[19][5, 6] = {}
  
-algebricNullSpaceRepresentatives[19][6, 5] = {}
+algebraicNullSpaceRepresentatives[19][6, 5] = {}
  
-algebricNullSpaceRepresentatives[19][6, 7] = {}
+algebraicNullSpaceRepresentatives[19][6, 7] = {}
  
-algebricNullSpaceRepresentatives[19][7, 6] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[19][7, 6] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[19][7, 8] = {}
+algebraicNullSpaceRepresentatives[19][7, 8] = {}
  
-algebricNullSpaceRepresentatives[19][8, 7] = {}
+algebraicNullSpaceRepresentatives[19][8, 7] = {}
  
-algebricNullSpaceRepresentatives[19][8, 9] = {}
+algebraicNullSpaceRepresentatives[19][8, 9] = {}
  
-algebricNullSpaceRepresentatives[19][9, 1] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[19][9, 1] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[19][9, 8] = {}
+algebraicNullSpaceRepresentatives[19][9, 8] = {}
  
-algebricNullSpaceRepresentatives[20][1, 2] = {}
+algebraicNullSpaceRepresentatives[20][1, 2] = {}
  
-algebricNullSpaceRepresentatives[20][1, 9] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[20][1, 9] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[20][2, 1] = {}
+algebraicNullSpaceRepresentatives[20][2, 1] = {}
  
-algebricNullSpaceRepresentatives[20][2, 3] = {}
+algebraicNullSpaceRepresentatives[20][2, 3] = {}
  
-algebricNullSpaceRepresentatives[20][3, 2] = {}
+algebraicNullSpaceRepresentatives[20][3, 2] = {}
  
-algebricNullSpaceRepresentatives[20][3, 4] = {}
+algebraicNullSpaceRepresentatives[20][3, 4] = {}
  
-algebricNullSpaceRepresentatives[20][4, 3] = {}
+algebraicNullSpaceRepresentatives[20][4, 3] = {}
  
-algebricNullSpaceRepresentatives[20][4, 5] = {}
+algebraicNullSpaceRepresentatives[20][4, 5] = {}
  
-algebricNullSpaceRepresentatives[20][5, 4] = {}
+algebraicNullSpaceRepresentatives[20][5, 4] = {}
  
-algebricNullSpaceRepresentatives[20][5, 6] = {}
+algebraicNullSpaceRepresentatives[20][5, 6] = {}
  
-algebricNullSpaceRepresentatives[20][6, 5] = {}
+algebraicNullSpaceRepresentatives[20][6, 5] = {}
  
-algebricNullSpaceRepresentatives[20][6, 7] = {}
+algebraicNullSpaceRepresentatives[20][6, 7] = {}
  
-algebricNullSpaceRepresentatives[20][7, 6] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[20][7, 6] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[20][7, 8] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[20][7, 8] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[20][8, 7] = {}
+algebraicNullSpaceRepresentatives[20][8, 7] = {}
  
-algebricNullSpaceRepresentatives[20][8, 9] = {}
+algebraicNullSpaceRepresentatives[20][8, 9] = {}
  
-algebricNullSpaceRepresentatives[20][9, 1] = {}
+algebraicNullSpaceRepresentatives[20][9, 1] = {}
  
-algebricNullSpaceRepresentatives[20][9, 8] = {}
+algebraicNullSpaceRepresentatives[20][9, 8] = {}
  
-algebricNullSpaceRepresentatives[21][1, 2] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[21][1, 2] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[21][1, 9] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[21][1, 9] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[21][2, 1] = {}
+algebraicNullSpaceRepresentatives[21][2, 1] = {}
  
-algebricNullSpaceRepresentatives[21][2, 3] = {}
+algebraicNullSpaceRepresentatives[21][2, 3] = {}
  
-algebricNullSpaceRepresentatives[21][3, 2] = {}
+algebraicNullSpaceRepresentatives[21][3, 2] = {}
  
-algebricNullSpaceRepresentatives[21][3, 4] = {}
+algebraicNullSpaceRepresentatives[21][3, 4] = {}
  
-algebricNullSpaceRepresentatives[21][4, 3] = {}
+algebraicNullSpaceRepresentatives[21][4, 3] = {}
  
-algebricNullSpaceRepresentatives[21][4, 5] = {}
+algebraicNullSpaceRepresentatives[21][4, 5] = {}
  
-algebricNullSpaceRepresentatives[21][5, 4] = {}
+algebraicNullSpaceRepresentatives[21][5, 4] = {}
  
-algebricNullSpaceRepresentatives[21][5, 6] = {}
+algebraicNullSpaceRepresentatives[21][5, 6] = {}
  
-algebricNullSpaceRepresentatives[21][6, 5] = {}
+algebraicNullSpaceRepresentatives[21][6, 5] = {}
  
-algebricNullSpaceRepresentatives[21][6, 7] = {}
+algebraicNullSpaceRepresentatives[21][6, 7] = {}
  
-algebricNullSpaceRepresentatives[21][7, 6] = {}
+algebraicNullSpaceRepresentatives[21][7, 6] = {}
  
-algebricNullSpaceRepresentatives[21][7, 8] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[21][7, 8] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[21][8, 7] = {}
+algebraicNullSpaceRepresentatives[21][8, 7] = {}
  
-algebricNullSpaceRepresentatives[21][8, 9] = {}
+algebraicNullSpaceRepresentatives[21][8, 9] = {}
  
-algebricNullSpaceRepresentatives[21][9, 1] = {}
+algebraicNullSpaceRepresentatives[21][9, 1] = {}
  
-algebricNullSpaceRepresentatives[21][9, 8] = {}
+algebraicNullSpaceRepresentatives[21][9, 8] = {}
  
-algebricNullSpaceRepresentatives[22][1, 2] = {}
+algebraicNullSpaceRepresentatives[22][1, 2] = {}
  
-algebricNullSpaceRepresentatives[22][1, 9] = SparseArray[Automatic, {8, 9}, 
+algebraicNullSpaceRepresentatives[22][1, 9] = SparseArray[Automatic, {8, 9}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[22][2, 1] = {}
+algebraicNullSpaceRepresentatives[22][2, 1] = {}
  
-algebricNullSpaceRepresentatives[22][2, 3] = {}
+algebraicNullSpaceRepresentatives[22][2, 3] = {}
  
-algebricNullSpaceRepresentatives[22][3, 2] = SparseArray[Automatic, {8, 9}, 
+algebraicNullSpaceRepresentatives[22][3, 2] = SparseArray[Automatic, {8, 9}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 7, 8, 9}, {{9}, {8}, {7}, {6}, {5}, {3}, {4}, 
        {2}, {1}}}, {1, 1, 1, 1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[22][3, 4] = SparseArray[Automatic, {9, 9}, 
+algebraicNullSpaceRepresentatives[22][3, 4] = SparseArray[Automatic, {9, 9}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{9}, {8}, {7}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[22][4, 3] = {}
+algebraicNullSpaceRepresentatives[22][4, 3] = {}
  
-algebricNullSpaceRepresentatives[22][4, 5] = {}
+algebraicNullSpaceRepresentatives[22][4, 5] = {}
  
-algebricNullSpaceRepresentatives[22][5, 4] = {}
+algebraicNullSpaceRepresentatives[22][5, 4] = {}
  
-algebricNullSpaceRepresentatives[22][5, 6] = {}
+algebraicNullSpaceRepresentatives[22][5, 6] = {}
  
-algebricNullSpaceRepresentatives[22][6, 5] = SparseArray[Automatic, {9, 9}, 
+algebraicNullSpaceRepresentatives[22][6, 5] = SparseArray[Automatic, {9, 9}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{9}, {8}, {7}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[22][6, 7] = {}
+algebraicNullSpaceRepresentatives[22][6, 7] = {}
  
-algebricNullSpaceRepresentatives[22][7, 6] = {}
+algebraicNullSpaceRepresentatives[22][7, 6] = {}
  
-algebricNullSpaceRepresentatives[22][7, 8] = SparseArray[Automatic, {8, 9}, 
+algebraicNullSpaceRepresentatives[22][7, 8] = SparseArray[Automatic, {8, 9}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{9}, {8}, {7}, {6}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[22][8, 7] = {}
+algebraicNullSpaceRepresentatives[22][8, 7] = {}
  
-algebricNullSpaceRepresentatives[22][8, 9] = {}
+algebraicNullSpaceRepresentatives[22][8, 9] = {}
  
-algebricNullSpaceRepresentatives[22][9, 1] = SparseArray[Automatic, {8, 9}, 
+algebraicNullSpaceRepresentatives[22][9, 1] = SparseArray[Automatic, {8, 9}, 
      0, {1, {{0, 1, 2, 3, 5, 7, 9, 11, 13}, {{9}, {8}, {7}, {1}, {6}, {1}, 
        {5}, {1}, {4}, {1}, {3}, {1}, {2}}}, {1, 1, 1, -1, 1, -1, 1, -1, 1, 
       -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[22][9, 8] = {}
+algebraicNullSpaceRepresentatives[22][9, 8] = {}
  
-algebricNullSpaceRepresentatives[23][1, 2] = SparseArray[Automatic, {8, 8}, 
+algebraicNullSpaceRepresentatives[23][1, 2] = SparseArray[Automatic, {8, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[23][1, 9] = SparseArray[Automatic, {8, 8}, 
+algebraicNullSpaceRepresentatives[23][1, 9] = SparseArray[Automatic, {8, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[23][2, 1] = {}
+algebraicNullSpaceRepresentatives[23][2, 1] = {}
  
-algebricNullSpaceRepresentatives[23][2, 3] = {}
+algebraicNullSpaceRepresentatives[23][2, 3] = {}
  
-algebricNullSpaceRepresentatives[23][3, 2] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[23][3, 2] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 6, 7, 8}, {{8}, {7}, {6}, {5}, {3}, {4}, {2}, 
        {1}}}, {1, 1, 1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[23][3, 4] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[23][3, 4] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{8}, {7}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[23][4, 3] = {}
+algebraicNullSpaceRepresentatives[23][4, 3] = {}
  
-algebricNullSpaceRepresentatives[23][4, 5] = {}
+algebraicNullSpaceRepresentatives[23][4, 5] = {}
  
-algebricNullSpaceRepresentatives[23][5, 4] = {}
+algebraicNullSpaceRepresentatives[23][5, 4] = {}
  
-algebricNullSpaceRepresentatives[23][5, 6] = {}
+algebraicNullSpaceRepresentatives[23][5, 6] = {}
  
-algebricNullSpaceRepresentatives[23][6, 5] = SparseArray[Automatic, {8, 8}, 
+algebraicNullSpaceRepresentatives[23][6, 5] = SparseArray[Automatic, {8, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[23][6, 7] = {}
+algebraicNullSpaceRepresentatives[23][6, 7] = {}
  
-algebricNullSpaceRepresentatives[23][7, 6] = {}
+algebraicNullSpaceRepresentatives[23][7, 6] = {}
  
-algebricNullSpaceRepresentatives[23][7, 8] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[23][7, 8] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{8}, {7}, {6}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[23][8, 7] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[23][8, 7] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 3, 4, 5, 6, 7, 9}, {{8}, {1}, {7}, {6}, {5}, {4}, {3}, 
        {1}, {2}}}, {1, -1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[23][8, 9] = {}
+algebraicNullSpaceRepresentatives[23][8, 9] = {}
  
-algebricNullSpaceRepresentatives[23][9, 1] = {}
+algebraicNullSpaceRepresentatives[23][9, 1] = {}
  
-algebricNullSpaceRepresentatives[23][9, 8] = {}
+algebraicNullSpaceRepresentatives[23][9, 8] = {}
  
-algebricNullSpaceRepresentatives[24][1, 2] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[24][1, 2] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[24][1, 9] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[24][1, 9] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[24][2, 1] = {}
+algebraicNullSpaceRepresentatives[24][2, 1] = {}
  
-algebricNullSpaceRepresentatives[24][2, 3] = {}
+algebraicNullSpaceRepresentatives[24][2, 3] = {}
  
-algebricNullSpaceRepresentatives[24][3, 2] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[24][3, 2] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[24][3, 4] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[24][3, 4] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[24][4, 3] = {}
+algebraicNullSpaceRepresentatives[24][4, 3] = {}
  
-algebricNullSpaceRepresentatives[24][4, 5] = {}
+algebraicNullSpaceRepresentatives[24][4, 5] = {}
  
-algebricNullSpaceRepresentatives[24][5, 4] = {}
+algebraicNullSpaceRepresentatives[24][5, 4] = {}
  
-algebricNullSpaceRepresentatives[24][5, 6] = {}
+algebraicNullSpaceRepresentatives[24][5, 6] = {}
  
-algebricNullSpaceRepresentatives[24][6, 5] = {}
+algebraicNullSpaceRepresentatives[24][6, 5] = {}
  
-algebricNullSpaceRepresentatives[24][6, 7] = {}
+algebraicNullSpaceRepresentatives[24][6, 7] = {}
  
-algebricNullSpaceRepresentatives[24][7, 6] = {}
+algebraicNullSpaceRepresentatives[24][7, 6] = {}
  
-algebricNullSpaceRepresentatives[24][7, 8] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[24][7, 8] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[24][8, 7] = {}
+algebraicNullSpaceRepresentatives[24][8, 7] = {}
  
-algebricNullSpaceRepresentatives[24][8, 9] = {}
+algebraicNullSpaceRepresentatives[24][8, 9] = {}
  
-algebricNullSpaceRepresentatives[24][9, 1] = {}
+algebraicNullSpaceRepresentatives[24][9, 1] = {}
  
-algebricNullSpaceRepresentatives[24][9, 8] = {}
+algebraicNullSpaceRepresentatives[24][9, 8] = {}
  
-algebricNullSpaceRepresentatives[25][1, 2] = {}
+algebraicNullSpaceRepresentatives[25][1, 2] = {}
  
-algebricNullSpaceRepresentatives[25][1, 9] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[25][1, 9] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[25][2, 1] = {}
+algebraicNullSpaceRepresentatives[25][2, 1] = {}
  
-algebricNullSpaceRepresentatives[25][2, 3] = {}
+algebraicNullSpaceRepresentatives[25][2, 3] = {}
  
-algebricNullSpaceRepresentatives[25][3, 2] = {}
+algebraicNullSpaceRepresentatives[25][3, 2] = {}
  
-algebricNullSpaceRepresentatives[25][3, 4] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[25][3, 4] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[25][4, 3] = {}
+algebraicNullSpaceRepresentatives[25][4, 3] = {}
  
-algebricNullSpaceRepresentatives[25][4, 5] = {}
+algebraicNullSpaceRepresentatives[25][4, 5] = {}
  
-algebricNullSpaceRepresentatives[25][5, 4] = {}
+algebraicNullSpaceRepresentatives[25][5, 4] = {}
  
-algebricNullSpaceRepresentatives[25][5, 6] = {}
+algebraicNullSpaceRepresentatives[25][5, 6] = {}
  
-algebricNullSpaceRepresentatives[25][6, 5] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[25][6, 5] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[25][6, 7] = {}
+algebraicNullSpaceRepresentatives[25][6, 7] = {}
  
-algebricNullSpaceRepresentatives[25][7, 6] = {}
+algebraicNullSpaceRepresentatives[25][7, 6] = {}
  
-algebricNullSpaceRepresentatives[25][7, 8] = SparseArray[Automatic, {5, 5}, 
+algebraicNullSpaceRepresentatives[25][7, 8] = SparseArray[Automatic, {5, 5}, 
      0, {1, {{0, 1, 2, 3, 4, 5}, {{5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[25][8, 7] = {}
+algebraicNullSpaceRepresentatives[25][8, 7] = {}
  
-algebricNullSpaceRepresentatives[25][8, 9] = {}
+algebraicNullSpaceRepresentatives[25][8, 9] = {}
  
-algebricNullSpaceRepresentatives[25][9, 1] = {}
+algebraicNullSpaceRepresentatives[25][9, 1] = {}
  
-algebricNullSpaceRepresentatives[25][9, 8] = {}
+algebraicNullSpaceRepresentatives[25][9, 8] = {}
  
-algebricNullSpaceRepresentatives[26][1, 2] = {}
+algebraicNullSpaceRepresentatives[26][1, 2] = {}
  
-algebricNullSpaceRepresentatives[26][1, 9] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[26][1, 9] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[26][2, 1] = {}
+algebraicNullSpaceRepresentatives[26][2, 1] = {}
  
-algebricNullSpaceRepresentatives[26][2, 3] = {}
+algebraicNullSpaceRepresentatives[26][2, 3] = {}
  
-algebricNullSpaceRepresentatives[26][3, 2] = {}
+algebraicNullSpaceRepresentatives[26][3, 2] = {}
  
-algebricNullSpaceRepresentatives[26][3, 4] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[26][3, 4] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[26][4, 3] = {}
+algebraicNullSpaceRepresentatives[26][4, 3] = {}
  
-algebricNullSpaceRepresentatives[26][4, 5] = {}
+algebraicNullSpaceRepresentatives[26][4, 5] = {}
  
-algebricNullSpaceRepresentatives[26][5, 4] = {}
+algebraicNullSpaceRepresentatives[26][5, 4] = {}
  
-algebricNullSpaceRepresentatives[26][5, 6] = {}
+algebraicNullSpaceRepresentatives[26][5, 6] = {}
  
-algebricNullSpaceRepresentatives[26][6, 5] = {}
+algebraicNullSpaceRepresentatives[26][6, 5] = {}
  
-algebricNullSpaceRepresentatives[26][6, 7] = {}
+algebraicNullSpaceRepresentatives[26][6, 7] = {}
  
-algebricNullSpaceRepresentatives[26][7, 6] = {}
+algebraicNullSpaceRepresentatives[26][7, 6] = {}
  
-algebricNullSpaceRepresentatives[26][7, 8] = SparseArray[Automatic, {6, 6}, 
+algebraicNullSpaceRepresentatives[26][7, 8] = SparseArray[Automatic, {6, 6}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[26][8, 7] = {}
+algebraicNullSpaceRepresentatives[26][8, 7] = {}
  
-algebricNullSpaceRepresentatives[26][8, 9] = {}
+algebraicNullSpaceRepresentatives[26][8, 9] = {}
  
-algebricNullSpaceRepresentatives[26][9, 1] = {}
+algebraicNullSpaceRepresentatives[26][9, 1] = {}
  
-algebricNullSpaceRepresentatives[26][9, 8] = {}
+algebraicNullSpaceRepresentatives[26][9, 8] = {}
  
-algebricNullSpaceRepresentatives[27][1, 2] = {}
+algebraicNullSpaceRepresentatives[27][1, 2] = {}
  
-algebricNullSpaceRepresentatives[27][1, 9] = {}
+algebraicNullSpaceRepresentatives[27][1, 9] = {}
  
-algebricNullSpaceRepresentatives[27][2, 1] = {}
+algebraicNullSpaceRepresentatives[27][2, 1] = {}
  
-algebricNullSpaceRepresentatives[27][2, 3] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[27][2, 3] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[27][3, 2] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[27][3, 2] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 5, 6, 7, 9}, {{8}, {7}, {6}, {1}, {5}, {4}, {3}, 
        {1}, {2}}}, {1, 1, 1, -1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[27][3, 4] = {}
+algebraicNullSpaceRepresentatives[27][3, 4] = {}
  
-algebricNullSpaceRepresentatives[27][4, 3] = {}
+algebraicNullSpaceRepresentatives[27][4, 3] = {}
  
-algebricNullSpaceRepresentatives[27][4, 5] = {}
+algebraicNullSpaceRepresentatives[27][4, 5] = {}
  
-algebricNullSpaceRepresentatives[27][5, 4] = {}
+algebraicNullSpaceRepresentatives[27][5, 4] = {}
  
-algebricNullSpaceRepresentatives[27][5, 6] = SparseArray[Automatic, {8, 8}, 
+algebraicNullSpaceRepresentatives[27][5, 6] = SparseArray[Automatic, {8, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[27][6, 5] = SparseArray[Automatic, {8, 8}, 
+algebraicNullSpaceRepresentatives[27][6, 5] = SparseArray[Automatic, {8, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[27][6, 7] = {}
+algebraicNullSpaceRepresentatives[27][6, 7] = {}
  
-algebricNullSpaceRepresentatives[27][7, 6] = {}
+algebraicNullSpaceRepresentatives[27][7, 6] = {}
  
-algebricNullSpaceRepresentatives[27][7, 8] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[27][7, 8] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{8}, {7}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[27][8, 7] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[27][8, 7] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{8}, {7}, {6}, {5}, {4}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[27][8, 9] = {}
+algebraicNullSpaceRepresentatives[27][8, 9] = {}
  
-algebricNullSpaceRepresentatives[27][9, 1] = SparseArray[Automatic, {8, 8}, 
+algebraicNullSpaceRepresentatives[27][9, 1] = SparseArray[Automatic, {8, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[27][9, 8] = {}
+algebraicNullSpaceRepresentatives[27][9, 8] = {}
  
-algebricNullSpaceRepresentatives[28][1, 2] = {}
+algebraicNullSpaceRepresentatives[28][1, 2] = {}
  
-algebricNullSpaceRepresentatives[28][1, 9] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[28][1, 9] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[28][2, 1] = {}
+algebraicNullSpaceRepresentatives[28][2, 1] = {}
  
-algebricNullSpaceRepresentatives[28][2, 3] = SparseArray[Automatic, {8, 8}, 
+algebraicNullSpaceRepresentatives[28][2, 3] = SparseArray[Automatic, {8, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[28][3, 2] = SparseArray[Automatic, {8, 8}, 
+algebraicNullSpaceRepresentatives[28][3, 2] = SparseArray[Automatic, {8, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[28][3, 4] = {}
+algebraicNullSpaceRepresentatives[28][3, 4] = {}
  
-algebricNullSpaceRepresentatives[28][4, 3] = {}
+algebraicNullSpaceRepresentatives[28][4, 3] = {}
  
-algebricNullSpaceRepresentatives[28][4, 5] = {}
+algebraicNullSpaceRepresentatives[28][4, 5] = {}
  
-algebricNullSpaceRepresentatives[28][5, 4] = {}
+algebraicNullSpaceRepresentatives[28][5, 4] = {}
  
-algebricNullSpaceRepresentatives[28][5, 6] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[28][5, 6] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{8}, {7}, {6}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[28][6, 5] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[28][6, 5] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{8}, {7}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[28][6, 7] = {}
+algebraicNullSpaceRepresentatives[28][6, 7] = {}
  
-algebricNullSpaceRepresentatives[28][7, 6] = {}
+algebraicNullSpaceRepresentatives[28][7, 6] = {}
  
-algebricNullSpaceRepresentatives[28][7, 8] = {}
+algebraicNullSpaceRepresentatives[28][7, 8] = {}
  
-algebricNullSpaceRepresentatives[28][8, 7] = SparseArray[Automatic, {8, 8}, 
+algebraicNullSpaceRepresentatives[28][8, 7] = SparseArray[Automatic, {8, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[28][8, 9] = {}
+algebraicNullSpaceRepresentatives[28][8, 9] = {}
  
-algebricNullSpaceRepresentatives[28][9, 1] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[28][9, 1] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 6, 8, 10}, {{8}, {7}, {6}, {5}, {1}, {4}, {1}, 
        {3}, {1}, {2}}}, {1, 1, 1, 1, -1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[28][9, 8] = {}
+algebraicNullSpaceRepresentatives[28][9, 8] = {}
  
-algebricNullSpaceRepresentatives[29][1, 2] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[29][1, 2] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[29][1, 9] = {}
+algebraicNullSpaceRepresentatives[29][1, 9] = {}
  
-algebricNullSpaceRepresentatives[29][2, 1] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[29][2, 1] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[29][2, 3] = {}
+algebraicNullSpaceRepresentatives[29][2, 3] = {}
  
-algebricNullSpaceRepresentatives[29][3, 2] = {}
+algebraicNullSpaceRepresentatives[29][3, 2] = {}
  
-algebricNullSpaceRepresentatives[29][3, 4] = {}
+algebraicNullSpaceRepresentatives[29][3, 4] = {}
  
-algebricNullSpaceRepresentatives[29][4, 3] = {}
+algebraicNullSpaceRepresentatives[29][4, 3] = {}
  
-algebricNullSpaceRepresentatives[29][4, 5] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[29][4, 5] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[29][5, 4] = {}
+algebraicNullSpaceRepresentatives[29][5, 4] = {}
  
-algebricNullSpaceRepresentatives[29][5, 6] = {}
+algebraicNullSpaceRepresentatives[29][5, 6] = {}
  
-algebricNullSpaceRepresentatives[29][6, 5] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[29][6, 5] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{7}, {6}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[29][6, 7] = {}
+algebraicNullSpaceRepresentatives[29][6, 7] = {}
  
-algebricNullSpaceRepresentatives[29][7, 6] = {}
+algebraicNullSpaceRepresentatives[29][7, 6] = {}
  
-algebricNullSpaceRepresentatives[29][7, 8] = {}
+algebraicNullSpaceRepresentatives[29][7, 8] = {}
  
-algebricNullSpaceRepresentatives[29][8, 7] = {}
+algebraicNullSpaceRepresentatives[29][8, 7] = {}
  
-algebricNullSpaceRepresentatives[29][8, 9] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[29][8, 9] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[29][9, 1] = {}
+algebraicNullSpaceRepresentatives[29][9, 1] = {}
  
-algebricNullSpaceRepresentatives[29][9, 8] = {}
+algebraicNullSpaceRepresentatives[29][9, 8] = {}
  
-algebricNullSpaceRepresentatives[30][1, 2] = {}
+algebraicNullSpaceRepresentatives[30][1, 2] = {}
  
-algebricNullSpaceRepresentatives[30][1, 9] = SparseArray[Automatic, {10, 11}, 
+algebraicNullSpaceRepresentatives[30][1, 9] = SparseArray[Automatic, {10, 11}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{11}, {9}, {8}, {7}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[30][2, 1] = {}
+algebraicNullSpaceRepresentatives[30][2, 1] = {}
  
-algebricNullSpaceRepresentatives[30][2, 3] = SparseArray[Automatic, {10, 11}, 
+algebraicNullSpaceRepresentatives[30][2, 3] = SparseArray[Automatic, {10, 11}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{11}, {10}, {9}, {8}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[30][3, 2] = SparseArray[Automatic, {10, 11}, 
+algebraicNullSpaceRepresentatives[30][3, 2] = SparseArray[Automatic, {10, 11}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11}, {{11}, {10}, {9}, {8}, {7}, 
        {6}, {5}, {3}, {4}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[30][3, 4] = SparseArray[Automatic, {10, 11}, 
+algebraicNullSpaceRepresentatives[30][3, 4] = SparseArray[Automatic, {10, 11}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{11}, {10}, {9}, {8}, {7}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[30][4, 3] = {}
+algebraicNullSpaceRepresentatives[30][4, 3] = {}
  
-algebricNullSpaceRepresentatives[30][4, 5] = {}
+algebraicNullSpaceRepresentatives[30][4, 5] = {}
  
-algebricNullSpaceRepresentatives[30][5, 4] = SparseArray[Automatic, {10, 11}, 
+algebraicNullSpaceRepresentatives[30][5, 4] = SparseArray[Automatic, {10, 11}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{10}, {9}, {8}, {7}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[30][5, 6] = SparseArray[Automatic, {10, 11}, 
+algebraicNullSpaceRepresentatives[30][5, 6] = SparseArray[Automatic, {10, 11}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{11}, {10}, {9}, {7}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[30][6, 5] = SparseArray[Automatic, {10, 11}, 
+algebraicNullSpaceRepresentatives[30][6, 5] = SparseArray[Automatic, {10, 11}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{11}, {10}, {8}, {7}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[30][6, 7] = {}
+algebraicNullSpaceRepresentatives[30][6, 7] = {}
  
-algebricNullSpaceRepresentatives[30][7, 6] = {}
+algebraicNullSpaceRepresentatives[30][7, 6] = {}
  
-algebricNullSpaceRepresentatives[30][7, 8] = SparseArray[Automatic, {10, 11}, 
+algebraicNullSpaceRepresentatives[30][7, 8] = SparseArray[Automatic, {10, 11}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{11}, {10}, {9}, {8}, {7}, 
        {6}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[30][8, 7] = SparseArray[Automatic, {10, 11}, 
+algebraicNullSpaceRepresentatives[30][8, 7] = SparseArray[Automatic, {10, 11}, 
      0, {1, {{0, 2, 4, 6, 8, 9, 10, 11, 12, 13, 15}, {{1}, {11}, {1}, {10}, 
        {1}, {9}, {1}, {8}, {7}, {6}, {5}, {4}, {3}, {1}, {2}}}, {-1, 1, -1, 
       1, -1, 1, -1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[30][8, 9] = {}
+algebraicNullSpaceRepresentatives[30][8, 9] = {}
  
-algebricNullSpaceRepresentatives[30][9, 1] = SparseArray[Automatic, {10, 11}, 
+algebraicNullSpaceRepresentatives[30][9, 1] = SparseArray[Automatic, {10, 11}, 
      0, {1, {{0, 1, 2, 3, 4, 6, 8, 10, 12, 14, 16}, {{11}, {10}, {9}, {8}, 
        {1}, {7}, {1}, {6}, {1}, {5}, {1}, {4}, {1}, {3}, {1}, {2}}}, {1, 1, 
       1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[30][9, 8] = {}
+algebraicNullSpaceRepresentatives[30][9, 8] = {}
  
-algebricNullSpaceRepresentatives[31][1, 2] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[31][1, 2] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{9}, {8}, {7}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[31][1, 9] = {}
+algebraicNullSpaceRepresentatives[31][1, 9] = {}
  
-algebricNullSpaceRepresentatives[31][2, 1] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[31][2, 1] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 4, 5, 7, 8, 10, 11, 13}, {{10}, {9}, {1}, {8}, {7}, 
        {1}, {6}, {5}, {1}, {4}, {3}, {1}, {2}}}, {1, 1, -1, 1, 1, -1, 1, 1, 
       -1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[31][2, 3] = {}
+algebraicNullSpaceRepresentatives[31][2, 3] = {}
  
-algebricNullSpaceRepresentatives[31][3, 2] = {}
+algebraicNullSpaceRepresentatives[31][3, 2] = {}
  
-algebricNullSpaceRepresentatives[31][3, 4] = {}
+algebraicNullSpaceRepresentatives[31][3, 4] = {}
  
-algebricNullSpaceRepresentatives[31][4, 3] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[31][4, 3] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {9}, {8}, {7}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[31][4, 5] = SparseArray[Automatic, {10, 10}, 
+algebraicNullSpaceRepresentatives[31][4, 5] = SparseArray[Automatic, {10, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{10}, {9}, {8}, {7}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[31][5, 4] = {}
+algebraicNullSpaceRepresentatives[31][5, 4] = {}
  
-algebricNullSpaceRepresentatives[31][5, 6] = {}
+algebraicNullSpaceRepresentatives[31][5, 6] = {}
  
-algebricNullSpaceRepresentatives[31][6, 5] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[31][6, 5] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {9}, {8}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[31][6, 7] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[31][6, 7] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {9}, {8}, {7}, {6}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[31][7, 6] = {}
+algebraicNullSpaceRepresentatives[31][7, 6] = {}
  
-algebricNullSpaceRepresentatives[31][7, 8] = {}
+algebraicNullSpaceRepresentatives[31][7, 8] = {}
  
-algebricNullSpaceRepresentatives[31][8, 7] = SparseArray[Automatic, {10, 10}, 
+algebraicNullSpaceRepresentatives[31][8, 7] = SparseArray[Automatic, {10, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, {{10}, {9}, {8}, {7}, {6}, 
        {5}, {4}, {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[31][8, 9] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[31][8, 9] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {8}, {7}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[31][9, 1] = {}
+algebraicNullSpaceRepresentatives[31][9, 1] = {}
  
-algebricNullSpaceRepresentatives[31][9, 8] = {}
+algebraicNullSpaceRepresentatives[31][9, 8] = {}
  
-algebricNullSpaceRepresentatives[32][1, 2] = {}
+algebraicNullSpaceRepresentatives[32][1, 2] = {}
  
-algebricNullSpaceRepresentatives[32][1, 9] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[32][1, 9] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[32][2, 1] = {}
+algebraicNullSpaceRepresentatives[32][2, 1] = {}
  
-algebricNullSpaceRepresentatives[32][2, 3] = {}
+algebraicNullSpaceRepresentatives[32][2, 3] = {}
  
-algebricNullSpaceRepresentatives[32][3, 2] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[32][3, 2] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[32][3, 4] = {}
+algebraicNullSpaceRepresentatives[32][3, 4] = {}
  
-algebricNullSpaceRepresentatives[32][4, 3] = {}
+algebraicNullSpaceRepresentatives[32][4, 3] = {}
  
-algebricNullSpaceRepresentatives[32][4, 5] = {}
+algebraicNullSpaceRepresentatives[32][4, 5] = {}
  
-algebricNullSpaceRepresentatives[32][5, 4] = {}
+algebraicNullSpaceRepresentatives[32][5, 4] = {}
  
-algebricNullSpaceRepresentatives[32][5, 6] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[32][5, 6] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{7}, {6}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[32][6, 5] = {}
+algebraicNullSpaceRepresentatives[32][6, 5] = {}
  
-algebricNullSpaceRepresentatives[32][6, 7] = {}
+algebraicNullSpaceRepresentatives[32][6, 7] = {}
  
-algebricNullSpaceRepresentatives[32][7, 6] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[32][7, 6] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[32][7, 8] = {}
+algebraicNullSpaceRepresentatives[32][7, 8] = {}
  
-algebricNullSpaceRepresentatives[32][8, 7] = {}
+algebraicNullSpaceRepresentatives[32][8, 7] = {}
  
-algebricNullSpaceRepresentatives[32][8, 9] = {}
+algebraicNullSpaceRepresentatives[32][8, 9] = {}
  
-algebricNullSpaceRepresentatives[32][9, 1] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[32][9, 1] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[32][9, 8] = {}
+algebraicNullSpaceRepresentatives[32][9, 8] = {}
  
-algebricNullSpaceRepresentatives[33][1, 2] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[33][1, 2] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[33][1, 9] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[33][1, 9] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[33][2, 1] = {}
+algebraicNullSpaceRepresentatives[33][2, 1] = {}
  
-algebricNullSpaceRepresentatives[33][2, 3] = {}
+algebraicNullSpaceRepresentatives[33][2, 3] = {}
  
-algebricNullSpaceRepresentatives[33][3, 2] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[33][3, 2] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[33][3, 4] = {}
+algebraicNullSpaceRepresentatives[33][3, 4] = {}
  
-algebricNullSpaceRepresentatives[33][4, 3] = {}
+algebraicNullSpaceRepresentatives[33][4, 3] = {}
  
-algebricNullSpaceRepresentatives[33][4, 5] = {}
+algebraicNullSpaceRepresentatives[33][4, 5] = {}
  
-algebricNullSpaceRepresentatives[33][5, 4] = {}
+algebraicNullSpaceRepresentatives[33][5, 4] = {}
  
-algebricNullSpaceRepresentatives[33][5, 6] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[33][5, 6] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{7}, {6}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[33][6, 5] = {}
+algebraicNullSpaceRepresentatives[33][6, 5] = {}
  
-algebricNullSpaceRepresentatives[33][6, 7] = {}
+algebraicNullSpaceRepresentatives[33][6, 7] = {}
  
-algebricNullSpaceRepresentatives[33][7, 6] = {}
+algebraicNullSpaceRepresentatives[33][7, 6] = {}
  
-algebricNullSpaceRepresentatives[33][7, 8] = {}
+algebraicNullSpaceRepresentatives[33][7, 8] = {}
  
-algebricNullSpaceRepresentatives[33][8, 7] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[33][8, 7] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[33][8, 9] = {}
+algebraicNullSpaceRepresentatives[33][8, 9] = {}
  
-algebricNullSpaceRepresentatives[33][9, 1] = {}
+algebraicNullSpaceRepresentatives[33][9, 1] = {}
  
-algebricNullSpaceRepresentatives[33][9, 8] = {}
+algebraicNullSpaceRepresentatives[33][9, 8] = {}
  
-algebricNullSpaceRepresentatives[34][1, 2] = {}
+algebraicNullSpaceRepresentatives[34][1, 2] = {}
  
-algebricNullSpaceRepresentatives[34][1, 9] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[34][1, 9] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{6}, {5}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[34][2, 1] = {}
+algebraicNullSpaceRepresentatives[34][2, 1] = {}
  
-algebricNullSpaceRepresentatives[34][2, 3] = {}
+algebraicNullSpaceRepresentatives[34][2, 3] = {}
  
-algebricNullSpaceRepresentatives[34][3, 2] = {}
+algebraicNullSpaceRepresentatives[34][3, 2] = {}
  
-algebricNullSpaceRepresentatives[34][3, 4] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[34][3, 4] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[34][4, 3] = {}
+algebraicNullSpaceRepresentatives[34][4, 3] = {}
  
-algebricNullSpaceRepresentatives[34][4, 5] = {}
+algebraicNullSpaceRepresentatives[34][4, 5] = {}
  
-algebricNullSpaceRepresentatives[34][5, 4] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[34][5, 4] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[34][5, 6] = SparseArray[Automatic, {6, 7}, 
+algebraicNullSpaceRepresentatives[34][5, 6] = SparseArray[Automatic, {6, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6}, {{7}, {6}, {4}, {3}, {2}, {1}}}, {1, 1, 
       1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[34][6, 5] = {}
+algebraicNullSpaceRepresentatives[34][6, 5] = {}
  
-algebricNullSpaceRepresentatives[34][6, 7] = {}
+algebraicNullSpaceRepresentatives[34][6, 7] = {}
  
-algebricNullSpaceRepresentatives[34][7, 6] = {}
+algebraicNullSpaceRepresentatives[34][7, 6] = {}
  
-algebricNullSpaceRepresentatives[34][7, 8] = SparseArray[Automatic, {7, 7}, 
+algebraicNullSpaceRepresentatives[34][7, 8] = SparseArray[Automatic, {7, 7}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{7}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[34][8, 7] = {}
+algebraicNullSpaceRepresentatives[34][8, 7] = {}
  
-algebricNullSpaceRepresentatives[34][8, 9] = {}
+algebraicNullSpaceRepresentatives[34][8, 9] = {}
  
-algebricNullSpaceRepresentatives[34][9, 1] = {}
+algebraicNullSpaceRepresentatives[34][9, 1] = {}
  
-algebricNullSpaceRepresentatives[34][9, 8] = {}
+algebraicNullSpaceRepresentatives[34][9, 8] = {}
  
-algebricNullSpaceRepresentatives[35][1, 2] = {}
+algebraicNullSpaceRepresentatives[35][1, 2] = {}
  
-algebricNullSpaceRepresentatives[35][1, 9] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[35][1, 9] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {8}, {7}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[35][2, 1] = {}
+algebraicNullSpaceRepresentatives[35][2, 1] = {}
  
-algebricNullSpaceRepresentatives[35][2, 3] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[35][2, 3] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {9}, {8}, {7}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[35][3, 2] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[35][3, 2] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 2, 4, 5, 7, 8, 10, 11, 12, 14}, {{1}, {10}, {1}, {9}, {8}, 
        {1}, {7}, {6}, {1}, {5}, {4}, {3}, {1}, {2}}}, {-1, 1, -1, 1, 1, -1, 
       1, 1, -1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[35][3, 4] = {}
+algebraicNullSpaceRepresentatives[35][3, 4] = {}
  
-algebricNullSpaceRepresentatives[35][4, 3] = {}
+algebraicNullSpaceRepresentatives[35][4, 3] = {}
  
-algebricNullSpaceRepresentatives[35][4, 5] = {}
+algebraicNullSpaceRepresentatives[35][4, 5] = {}
  
-algebricNullSpaceRepresentatives[35][5, 4] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[35][5, 4] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{9}, {8}, {7}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[35][5, 6] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[35][5, 6] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {9}, {8}, {7}, {6}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[35][6, 5] = {}
+algebraicNullSpaceRepresentatives[35][6, 5] = {}
  
-algebricNullSpaceRepresentatives[35][6, 7] = {}
+algebraicNullSpaceRepresentatives[35][6, 7] = {}
  
-algebricNullSpaceRepresentatives[35][7, 6] = {}
+algebraicNullSpaceRepresentatives[35][7, 6] = {}
  
-algebricNullSpaceRepresentatives[35][7, 8] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[35][7, 8] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {9}, {7}, {6}, {5}, {4}, 
        {3}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[35][8, 7] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[35][8, 7] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, {{10}, {9}, {8}, {7}, {6}, {5}, 
        {4}, {2}, {1}}}, {1, 1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[35][8, 9] = {}
+algebraicNullSpaceRepresentatives[35][8, 9] = {}
  
-algebricNullSpaceRepresentatives[35][9, 1] = SparseArray[Automatic, {9, 10}, 
+algebraicNullSpaceRepresentatives[35][9, 1] = SparseArray[Automatic, {9, 10}, 
      0, {1, {{0, 1, 2, 4, 5, 7, 8, 10, 12, 14}, {{10}, {9}, {1}, {8}, {7}, 
        {1}, {6}, {5}, {1}, {4}, {1}, {3}, {1}, {2}}}, {1, 1, -1, 1, 1, -1, 1, 
       1, -1, 1, -1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[35][9, 8] = {}
+algebraicNullSpaceRepresentatives[35][9, 8] = {}
  
-algebricNullSpaceRepresentatives[36][1, 2] = {}
+algebraicNullSpaceRepresentatives[36][1, 2] = {}
  
-algebricNullSpaceRepresentatives[36][1, 9] = {}
+algebraicNullSpaceRepresentatives[36][1, 9] = {}
  
-algebricNullSpaceRepresentatives[36][2, 1] = {}
+algebraicNullSpaceRepresentatives[36][2, 1] = {}
  
-algebricNullSpaceRepresentatives[36][2, 3] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[36][2, 3] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{8}, {6}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[36][3, 2] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[36][3, 2] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 2, 3, 4, 5, 6, 7, 8}, {{3}, {8}, {7}, {6}, {5}, {4}, {2}, 
        {1}}}, {-1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[36][3, 4] = {}
+algebraicNullSpaceRepresentatives[36][3, 4] = {}
  
-algebricNullSpaceRepresentatives[36][4, 3] = {}
+algebraicNullSpaceRepresentatives[36][4, 3] = {}
  
-algebricNullSpaceRepresentatives[36][4, 5] = {}
+algebraicNullSpaceRepresentatives[36][4, 5] = {}
  
-algebricNullSpaceRepresentatives[36][5, 4] = SparseArray[Automatic, {8, 8}, 
+algebraicNullSpaceRepresentatives[36][5, 4] = SparseArray[Automatic, {8, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[36][5, 6] = SparseArray[Automatic, {8, 8}, 
+algebraicNullSpaceRepresentatives[36][5, 6] = SparseArray[Automatic, {8, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {2}, 
        {1}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[36][6, 5] = {}
+algebraicNullSpaceRepresentatives[36][6, 5] = {}
  
-algebricNullSpaceRepresentatives[36][6, 7] = {}
+algebraicNullSpaceRepresentatives[36][6, 7] = {}
  
-algebricNullSpaceRepresentatives[36][7, 6] = {}
+algebraicNullSpaceRepresentatives[36][7, 6] = {}
  
-algebricNullSpaceRepresentatives[36][7, 8] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[36][7, 8] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 7}, {{8}, {7}, {5}, {4}, {3}, {2}, {1}}}, 
       {1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[36][8, 7] = SparseArray[Automatic, {7, 8}, 
+algebraicNullSpaceRepresentatives[36][8, 7] = SparseArray[Automatic, {7, 8}, 
      0, {1, {{0, 1, 2, 3, 4, 5, 6, 8}, {{8}, {7}, {6}, {5}, {4}, {3}, {1}, 
        {2}}}, {1, 1, 1, 1, 1, 1, 1, 1}}]
  
-algebricNullSpaceRepresentatives[36][8, 9] = {}
+algebraicNullSpaceRepresentatives[36][8, 9] = {}
  
-algebricNullSpaceRepresentatives[36][9, 1] = {}
+algebraicNullSpaceRepresentatives[36][9, 1] = {}
  
-algebricNullSpaceRepresentatives[36][9, 8] = {}
+algebraicNullSpaceRepresentatives[36][9, 8] = {}
