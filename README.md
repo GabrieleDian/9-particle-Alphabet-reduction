@@ -3,7 +3,7 @@ This repository contains the result of the paper "Novel cluster-algebraic letter
 
 "Alphabet Reduction" contains the results of the DCI reduction procedure.
 
-"6pt" involves the results of 6 point 1 mass and 6 point 1 massless letters, while 5pt2M the ones for 5 point 2 mass ones.
+"6pt1m" involves the results of 6 point 1 mass, "6pt0m" of 6 point massless letters, while 5pt2M the ones for 5 point 2 mass ones.
 
 
 For comments/questions/complaints please send a message to: rigers.aliaj@gmail.com.
