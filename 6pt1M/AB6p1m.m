@@ -1,11 +1,18 @@
 (* ::Package:: *)
 
-(*Rational and rationalisable letters in terms of Mandelstam variables for 6-point-1 mass kinematics.      *)
-(* accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers Aliaj, Gab Dian and Georgios Papathanasiou.                         *) 
-(* The alphabet is split between rational (AB6p1mRatS) and rationalisable (AB6p1RatblS). *)
-(* The latter involve rationalisable square roots of the form eps[ijkl] and d6*)
-(*Definitions thereof are provided at the end of the file*)
-(*Finally, a parametrization identifying these letters with the ones written in terms of Plucker coordinates is given under Z6p1m, together with the relative defintions*)
+(* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
+(* Aliaj, Gab Dian and Georgios Papathanasiou.                                                         *)
+
+(* Rational and rationalisable letters in terms of Mandelstam variables for 6-point-1 mass kinematics. *) 
+
+(* The alphabet is split between rational (AB6p1mRatS) and rationalisable (AB6p1RatblS).               *)
+
+(* The latter involve rationalisable square roots of the form eps[ijkl] and d6.                        *)
+
+(* Definitions thereof are provided at the end of the file                                             *)     
+
+(* Finally, a parametrization identifying these letters with the ones written in terms of Plucker      *)
+(* coordinates is given under Z6p1m, together along with other useful defintions                       *)
 
 
 AB6p1mRatS = {s[3, 4] + s[4, 5] - s[3, 4, 5], s[4, 5] + s[5, 6] - s[1, 2, 3], 

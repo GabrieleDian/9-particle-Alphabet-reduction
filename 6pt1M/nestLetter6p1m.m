@@ -1,10 +1,15 @@
 (* ::Package:: *)
 
-(* accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers Aliaj, Gab Dian and Georgios Papathanasiou.    *)                     *)
-(*Nested square root letter in terms of Mandelstam variables, corresponding to AB6p1mAlgZ[[10,1]]. *)
-(*The nested square root is given by DeltaPlusRule which mathces Subscript[\[CapitalDelta], +] from the draft and tRuleZ[[10]] from AB6p1mAlgZ.*) 
-(*Under parity transformation, eps\[Rule]-eps the letter matches with AB6p1mAlgZ[[11,1]], where the square root is Subscript[\[CapitalDelta], -], the parity conjugate of Subscript[\[CapitalDelta], +], 
-that matches with tRuleZ[[11]]*)
+(* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
+(* Aliaj, Gab Dian and Georgios Papathanasiou.                                                         *)
+
+(* Nested square root letter in terms of Mandelstam variables, corresponding to AB6p1mAlgZ[[10,1]].    *)
+
+(* The nested square root is given by DeltaPlusRule which mathces Subscript[\[CapitalDelta], +] from the draft and   *)
+(* tRuleZ[[10]] from AB6p1mAlgZ.                                                                       *) 
+
+(* Under parity transformation, eps\[Rule]-eps the letter matches with AB6p1mAlgZ[[11,1]], where the square  *)
+(* root is Subscript[\[CapitalDelta], -], the parity conjugate of Subscript[\[CapitalDelta], +], that matches with tRuleZ[[11]]    *)
 
 
 
