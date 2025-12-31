@@ -1,11 +1,17 @@
 (* ::Package:: *)
 
-(* accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers Aliaj, Gab Dian and Georgios Papathanasiou.   *)
-(* This alphabet is obtained through the massless limit of the corresponding AB6p1m alphabet. *) 
-(* The alphabet is split between rational (AB6p0mRatZ) and algebraic (AB6p0AlgZ) in terms of momentum twistors. *)
-(* The algebraic alphabet is organized in sublists with the same square roots*)
-(* The square roots r[1],r[2],r[4] appearing in them are given in the replacement rule "rRuleZ", 
-they match the corresponding r[1],r[2],r[4] in terms of Mandelstam variables up to an overall total square factor. *)
+(* accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
+(* Aliaj, Gab Dian and Georgios Papathanasiou.                                                         *)
+(* This alphabet is obtained through the massless limit of the corresponding AB6p1m alphabet.          *) 
+
+(* The alphabet is split between rational (AB6p0mRatZ) and algebraic (AB6p0AlgZ) in terms of momentum  *)
+(* twistors.                                                                                           *)
+
+(* The algebraic alphabet is organized in sublists with the same square roots.*)
+
+(* The square roots r[1],r[2],r[4] appearing in them are given in the replacement rule "rRuleZ", they  *)  
+(* match   the corresponding r[1],r[2],r[4] in terms of Mandelstam variables up to an overall total   *)
+(* square factor.                                                                                      *)
 
 
 AB6p0mRatZ = {(br[1, 2, 4, 6]*br[1, 3, 4, 5])/(br[1, 2, 3, 4]*
@@ -3345,70 +3351,11 @@ AB6p0mAlgz={{(-(br[1, 6, 7, 8]*(-(br[2, 4, 7, 8]*br[3, 4, 5, 6]) +
                   br[1, 4, 5, 6]*br[3, 4, 5, 7]*br[5, 6, 7, 8])))))))*r[4])}}
 
 
-rRuleZ={r[1]->Sqrt[br[
-Part[RowBox[{"{", RowBox[{"1", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]]^2 br[
-Part[RowBox[{"{", RowBox[{"2", ",", "3", ",", "4", ",", "5"}], "}"}], 1, 2]]^2+(br[
-Part[RowBox[{"{", RowBox[{"1", ",", "4", ",", "5", ",", "6"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"2", ",", "3", ",", "7", ",", "8"}], "}"}], 1, 2]]-br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "3", ",", "6"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"4", ",", "5", ",", "7", ",", "8"}], "}"}], 1, 2]])^2-2 br[
-Part[RowBox[{"{", RowBox[{"1", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"2", ",", "3", ",", "4", ",", "5"}], "}"}], 1, 2]] (br[
-Part[RowBox[{"{", RowBox[{"1", ",", "4", ",", "5", ",", "6"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"2", ",", "3", ",", "7", ",", "8"}], "}"}], 1, 2]]+br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "3", ",", "6"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"4", ",", "5", ",", "7", ",", "8"}], "}"}], 1, 2]])],
-r[2]->Sqrt[br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "7", ",", "8"}], "}"}], 1, 2]]^2 br[
-Part[RowBox[{"{", RowBox[{"3", ",", "4", ",", "5", ",", "6"}], "}"}], 1, 2]]^2+(br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "5", ",", "6"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"3", ",", "4", ",", "7", ",", "8"}], "}"}], 1, 2]]-br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "3", ",", "4"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"5", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]])^2-2 br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "7", ",", "8"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"3", ",", "4", ",", "5", ",", "6"}], "}"}], 1, 2]] (br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "5", ",", "6"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"3", ",", "4", ",", "7", ",", "8"}], "}"}], 1, 2]]+br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "3", ",", "4"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"5", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]])],
-r[4]->\[Sqrt](br[
-Part[RowBox[{"{", RowBox[{"1", ",", "4", ",", "7", ",", "8"}], "}"}], 1, 2]]^2 br[
-Part[RowBox[{"{", RowBox[{"1", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]]^2 br[
-Part[RowBox[{"{", RowBox[{"2", ",", "3", ",", "4", ",", "5"}], "}"}], 1, 2]]^2+br[
-Part[RowBox[{"{", RowBox[{"1", ",", "3", ",", "4", ",", "5"}], "}"}], 1, 2]]^2 br[
-Part[RowBox[{"{", RowBox[{"1", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]]^2 br[
-Part[RowBox[{"{", RowBox[{"2", ",", "4", ",", "7", ",", "8"}], "}"}], 1, 2]]^2+2 br[
-Part[RowBox[{"{", RowBox[{"1", ",", "3", ",", "4", ",", "5"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"1", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]] (br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "7", ",", "8"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"1", ",", "3", ",", "4", ",", "6"}], "}"}], 1, 2]]+br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "3", ",", "4"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"1", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]]) br[
-Part[RowBox[{"{", RowBox[{"2", ",", "4", ",", "7", ",", "8"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"4", ",", "5", ",", "7", ",", "8"}], "}"}], 1, 2]]-2 br[
-Part[RowBox[{"{", RowBox[{"1", ",", "4", ",", "7", ",", "8"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"1", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"2", ",", "3", ",", "4", ",", "5"}], "}"}], 1, 2]] (br[
-Part[RowBox[{"{", RowBox[{"1", ",", "3", ",", "4", ",", "5"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"1", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"2", ",", "4", ",", "7", ",", "8"}], "}"}], 1, 2]]+(br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "7", ",", "8"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"1", ",", "3", ",", "4", ",", "6"}], "}"}], 1, 2]]+br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "3", ",", "4"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"1", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]]) br[
-Part[RowBox[{"{", RowBox[{"4", ",", "5", ",", "7", ",", "8"}], "}"}], 1, 2]])+
-br[
-Part[RowBox[{"{", RowBox[{"4", ",", "5", ",", "7", ",", "8"}], "}"}], 1, 2]] (br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "7", ",", "8"}], "}"}], 1, 2]]^2 br[
-Part[RowBox[{"{", RowBox[{"1", ",", "3", ",", "4", ",", "6"}], "}"}], 1, 2]]^2 br[
-Part[RowBox[{"{", RowBox[{"4", ",", "5", ",", "7", ",", "8"}], "}"}], 1, 2]]+br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "3", ",", "4"}], "}"}], 1, 2]]^2 br[
-Part[RowBox[{"{", RowBox[{"1", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]]^2 br[
-Part[RowBox[{"{", RowBox[{"4", ",", "5", ",", "7", ",", "8"}], "}"}], 1, 2]]+2 br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "3", ",", "4"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "7", ",", "8"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"1", ",", "6", ",", "7", ",", "8"}], "}"}], 1, 2]] (-2 br[
-Part[RowBox[{"{", RowBox[{"1", ",", "4", ",", "5", ",", "6"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"3", ",", "4", ",", "7", ",", "8"}], "}"}], 1, 2]]+br[
-Part[RowBox[{"{", RowBox[{"1", ",", "3", ",", "4", ",", "6"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"4", ",", "5", ",", "7", ",", "8"}], "}"}], 1, 2]])))};
+(* Root replacing rule for the algebraic letters above, the expressions for r[1],r[4],r[2] match *)
+(* the ones given in AB6P0m.m for the corresponding roots up to an overall perfect square factor *)
+rRuleZ={r[1]->\[Sqrt](br[1,6,7,8]^2 br[2,3,4,5]^2+(br[1,4,5,6] br[2,3,7,8]-br[1,2,3,6] br[4,5,7,8])^2-
+2 br[1,6,7,8] br[2,3,4,5] (br[1,4,5,6] br[2,3,7,8]+br[1,2,3,6] br[4,5,7,8])),
+r[4]->\[Sqrt](br[1,6,7,8]^2 (br[1,4,7,8] br[2,3,4,5]-br[1,3,4,5] br[2,4,7,8])^2-
+2 br[1,6,7,8] ((br[1,2,7,8] br[1,3,4,6]+br[1,2,3,4] br[1,6,7,8]) (br[1,4,7,8] br[2,3,4,5]-br[1,3,4,5] br[2,4,7,8])+
+2 br[1,2,3,4] br[1,2,7,8] br[1,4,5,6] br[3,4,7,8]) br[4,5,7,8]+(br[1,2,7,8] br[1,3,4,6]+br[1,2,3,4] br[1,6,7,8])^2 br[4,5,7,8]^2),
+r[2]->\[Sqrt](br[1,2,7,8]^2 br[3,4,5,6]^2+(br[1,2,5,6] br[3,4,7,8]-br[1,2,3,4] br[5,6,7,8])^2-2 br[1,2,7,8] br[3,4,5,6] (br[1,2,5,6] br[3,4,7,8]+br[1,2,3,4] br[5,6,7,8]))};

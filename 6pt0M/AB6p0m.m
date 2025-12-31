@@ -1,15 +1,22 @@
 (* ::Package:: *)
 
-(* accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers Aliaj, Gab Dian and Georgios Papathanasiou.   *)
-(* This alphabet is obtained through the massless limit of the corresponding AB6p1m alphabet and expressed in Mandelstam variables. *) 
-(* The alphabet is split between rational (AB6p0mRatS), rationalisable (AB6p0mRatblS) and algebraic (AB6p0AlgS) in terms of momentum twistors. *)
-(* The algebraic alphabet is organized in sublists with the same square roots*)
-(* The square roots r[1],r[2],r[3],r[4],r[5],eps[ijkl],d6  given in the replacement rule "rRuleS". 
-The ones for r[1],r[2],r[4] match rRuleZ  up to an overall total square factor. *)
+(* accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
+(* Aliaj, Gab Dian and Georgios Papathanasiou.                                                         *)
+
+(* This alphabet is obtained through the massless limit of the corresponding AB6p1m alphabet and       *)
+(* expressed in Mandelstam variables.                                                                  *) 
+
+(* The alphabet is split between rational (AB6p0mRatS), rationalisable (AB6p0mRatblS) and algebraic    *)
+(* (AB6p0AlgS) in terms of momentum twistors.                                                          *)
+
+(* The algebraic alphabet is organized in sublists with the same square roots                          *)
+
+(* The square roots r[1],r[2],r[3],r[4],r[5],eps[ijkl],d6  given in the replacement rule "rRuleS".     *)
+(* The ones for r[1],r[2],r[4] match rRuleZ  up to an overall total square factor.                     *)
 
 
 
-AB6p0mRatS = {s[1, 2], s[2, 3], s[3, 4], s[4, 5], s[5, 6], s[6, 1], 
+AB6p0mRat = {s[1, 2], s[2, 3], s[3, 4], s[4, 5], s[5, 6], s[6, 1], 
      s[1, 2, 3], s[2, 3, 4], s[3, 4, 5], -s[1, 2] - s[2, 3], 
      -s[2, 3] - s[3, 4], -s[3, 4] - s[4, 5], -s[4, 5] - s[5, 6], 
      -s[6, 1] - s[5, 6], -s[1, 2] - s[6, 1], s[1, 2] - s[1, 2, 3], 
@@ -599,7 +606,7 @@ AB6p0mRatS = {s[1, 2], s[2, 3], s[3, 4], s[4, 5], s[5, 6], s[6, 1],
       
 
 
-AB6p0mRatblS={-((eps[6, 1, 2, 3] + s[1, 2]*(-s[6, 1] + s[2, 3] + s[4, 5]) + 
+AB6p0mRatbl={-((eps[6, 1, 2, 3] + s[1, 2]*(-s[6, 1] + s[2, 3] + s[4, 5]) + 
     s[6, 1]*s[1, 2, 3] - s[2, 3]*s[3, 4, 5] - s[1, 2, 3]*s[3, 4, 5])/
    (eps[6, 1, 2, 3] - s[1, 2]*(-s[6, 1] + s[2, 3] + s[4, 5]) - 
     s[6, 1]*s[1, 2, 3] + s[2, 3]*s[3, 4, 5] + s[1, 2, 3]*s[3, 4, 5])), 
@@ -1795,7 +1802,7 @@ AB6p0mRatblS={-((eps[6, 1, 2, 3] + s[1, 2]*(-s[6, 1] + s[2, 3] + s[4, 5]) +
     
 
 
-AB6p0mAlgS={{(-r[1] + s[1, 2] + s[3, 4] - s[5, 6])/(r[1] + s[1, 2] + s[3, 4] - s[5, 6]), 
+AB6p0mAlg={{(-r[1] + s[1, 2] + s[3, 4] - s[5, 6])/(r[1] + s[1, 2] + s[3, 4] - s[5, 6]), 
   (-r[1] - s[1, 2] + s[3, 4] + s[5, 6])/(r[1] - s[1, 2] + s[3, 4] + s[5, 6]), 
   (-r[1] + s[1, 2] - s[3, 4] + s[5, 6] - 2*s[1, 2, 3])/
    (r[1] + s[1, 2] - s[3, 4] + s[5, 6] - 2*s[1, 2, 3]), 
