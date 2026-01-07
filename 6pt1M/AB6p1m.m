@@ -15,7 +15,7 @@
 (* coordinates is given under Z6p1m, together along with other useful defintions                       *)
 
 
-AB6p1mRatS = {s[3, 4] + s[4, 5] - s[3, 4, 5], s[4, 5] + s[5, 6] - s[1, 2, 3], 
+AB6p1mRat = {s[3, 4] + s[4, 5] - s[3, 4, 5], s[4, 5] + s[5, 6] - s[1, 2, 3], 
      -s[1, 2] - s[4, 5] + s[1, 2, 3] + s[3, 4, 5], s[2, 3, 4], 
      -s[2, 3] + s[2, 3, 4], s[2, 3]*s[5, 6]*s[6, 1] + 
       ps1*s[4, 5]*s[2, 3, 4] - s[6, 1]*s[1, 2, 3]*s[2, 3, 4], 
@@ -349,7 +349,7 @@ AB6p1mRatS = {s[3, 4] + s[4, 5] - s[3, 4, 5], s[4, 5] + s[5, 6] - s[1, 2, 3],
             s[3, 4, 5])))};
 
 
-AB6p1mRatblS = {(-d6 + ps1*s[3, 4]*s[4, 5] - 2*s[3, 4]*s[4, 5]*s[6, 1] + 
+AB6p1mRatbl = {(-d6 + ps1*s[3, 4]*s[4, 5] - 2*s[3, 4]*s[4, 5]*s[6, 1] + 
       s[3, 4]*s[6, 1]*s[1, 2, 3] - s[1, 2]*s[4, 5]*s[2, 3, 4] + 
       s[2, 3]*s[5, 6]*s[3, 4, 5] + 2*s[4, 5]*s[2, 3, 4]*s[3, 4, 5] - 
       s[1, 2, 3]*s[2, 3, 4]*s[3, 4, 5])/(d6 + ps1*s[3, 4]*s[4, 5] - 
@@ -1037,7 +1037,7 @@ AB6p1mRatblS = {(-d6 + ps1*s[3, 4]*s[4, 5] - 2*s[3, 4]*s[4, 5]*s[6, 1] +
 
 (*Definitions of six point one mass roots in terms of mandelstam variables, these are equal to tRuleZ[[1;;9]] up to an overal total square factor*)
 (*There are two nested square roots for these kinematics that appear in a seperate file, "nestedLetter.m"*)
-tRuleS={t[1]->s[2,3]^4-2 s[2,3]^3 s[4,5]+s[2,3]^2 s[4,5]^2-2 s[2,3]^3 s[6,1]-2 s[2,3]^2 s[4,5] s[6,1]+s[2,3]^2 s[6,1]^2,
+tRule={t[1]->s[2,3]^4-2 s[2,3]^3 s[4,5]+s[2,3]^2 s[4,5]^2-2 s[2,3]^3 s[6,1]-2 s[2,3]^2 s[4,5] s[6,1]+s[2,3]^2 s[6,1]^2,
 t[2]->ps1^2 s[2,3]^2-2 ps1 s[2,3]^3+s[2,3]^4-2 ps1 s[2,3]^2 s[1,2,3]-2 s[2,3]^3 s[1,2,3]+s[2,3]^2 s[1,2,3]^2,
 t[3]->ps1^2 s[2,3]^2-2 ps1 s[2,3]^2 s[5,6]+s[2,3]^2 s[5,6]^2-2 ps1 s[2,3]^2 s[2,3,4]-2 s[2,3]^2 s[5,6] s[2,3,4]+s[2,3]^2 s[2,3,4]^2,
 t[4]->s[1,2]^2 s[2,3]^2-2 s[1,2] s[2,3]^2 s[3,4]+s[2,3]^2 s[3,4]^2-2 s[1,2] s[2,3]^2 s[5,6]-2 s[2,3]^2 s[3,4] s[5,6]+s[2,3]^2 s[5,6]^2,

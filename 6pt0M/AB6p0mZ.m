@@ -10,7 +10,7 @@
 (* The algebraic alphabet is organized in sublists with the same square roots.*)
 
 (* The square roots r[1],r[2],r[4] appearing in them are given in the replacement rule "rRuleZ", they  *)  
-(* match   the corresponding r[1],r[2],r[4] in terms of Mandelstam variables up to an overall total   *)
+(* match   the corresponding r[1],r[2],r[4] in terms of Mandelstam variables up to an overall total    *)
 (* square factor.                                                                                      *)
 
 

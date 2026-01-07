@@ -1,6 +1,5 @@
 (* ::Package:: *)
 
-
 (* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
 (* Aliaj, Gab Dian and Georgios Papathanasiou.                                                         *)
 
@@ -11,7 +10,7 @@
 (* The rest can be found in "AB6p1mZ.m" under AB6p1mAlgZ[[10,11]] in terms of momentum twistors.        *)                                                                                       *)
 
 
-AB6p1mPureS = {-(((-eps[1, 2, 5, 6] - ps1*s[3, 4] - s[1, 2]*s[6, 1] + 
+AB6p1mPure = {-(((-eps[1, 2, 5, 6] - ps1*s[3, 4] - s[1, 2]*s[6, 1] + 
          s[3, 4]*s[6, 1] - s[5, 6]*s[6, 1] + s[1, 2]*s[2, 3, 4] + 
          ps1*s[3, 4, 5] + s[5, 6]*s[3, 4, 5] - s[2, 3, 4]*s[3, 4, 5])*
         (eps[2, 3, 5, 6] + ps1*s[3, 4] + ps1*s[4, 5] - s[1, 2]*s[4, 5] + 
