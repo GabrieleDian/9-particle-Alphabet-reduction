@@ -7,7 +7,7 @@
 (* expressed in Mandelstam variables.                                                                  *) 
 
 (* The alphabet is split between rational (AB6p0mRatS), rationalisable (AB6p0mRatblS) and algebraic    *)
-(* (AB6p0AlgS) in terms of momentum twistors.                                                          *)
+(* (AB6p0Alg) in terms of momentum twistors.                                                          *)
 
 (* The algebraic alphabet is organized in sublists with the same square roots                          *)
 
