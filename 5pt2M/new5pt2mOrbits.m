@@ -1,10 +1,10 @@
 (* ::Package:: *)
 
 (* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
-(* Aliaj, Gab Dian and Georgios Papathanasiou.                                                         *) 
+(* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *) 
 
 (* 10 new letter orbits for a total of 120 letters, together with the definition of the  relevant      *)
-(* square root definitions, at the end of the file in delta5Rule.                                                    *)
+(* square root definitions, at the end of the file in delta5Rule.                                      *)
 
 (* Note that the dependence on p4s indicates an easy                                                   *)
 (* massive leg orientation and on p5sq a  hard one. Similarly there are two definitions for delta5,    *)

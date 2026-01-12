@@ -1,9 +1,13 @@
-(* Alphabet of the 1-loop 6-point 1-mass integral with D-dimensional external momenta,      *)
+(* ::Package:: *)
+
 (* accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD           *)
 (* processes" by Rigers Aliaj, Gab Dian and Georgios Papathanasiou.                         *) 
 (*                                                                                          *)
+(* Alphabet of the 1-loop 6-point 1-mass integral with D-dimensional external momenta,      *)
+
 (* The massive leg is (p_1)^2=ps[1], and the alphabet is split into the part "AB1L6p1m4D"   *)
 (* that is relevant in D=4, and extra letters "AB1L6p1mExtra" that only contribute for D>4. *)
+
 (* The square roots D1,...D11 appearing in them are given in the replacement rule "DRule".  *)
 (*                                                                                          *)
 

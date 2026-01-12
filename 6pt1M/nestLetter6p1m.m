@@ -1,7 +1,7 @@
 (* ::Package:: *)
 
 (* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
-(* Aliaj, Gab Dian and Georgios Papathanasiou.                                                         *)
+(* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *)                                           *)
 
 (* Nested square root letter in terms of Mandelstam variables, corresponding to AB6p1mAlgZ[[10,1]].    *)
 

@@ -1,7 +1,7 @@
 (* ::Package:: *)
 
 (* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
-(* Aliaj, Gab Dian and Georgios Papathanasiou.                                                         *)
+(* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *)
 
 (* Reduced alphabet of 7-point-2mass DCI kinematics, equivalent to 6-point-1mass LI kinematics upon    *)
 (* infinity twistor identification.                                                                    *) 
@@ -9,7 +9,12 @@
 (* The alphabet is split between rational (AB6p1mRatZ) and algebraic (AB6p1AlgZ) in terms of momentum  *)
 (* twistors.                                                                                           *)
 
-(* The algebraic alphabet is organized in sublists with the same square roots                          *)
+(* The algebraic alphabet is organized in sublists with the same square roots.               *)
+
+(* Note: the order of the subslists does not match the output of the algebraicSubAlphabet function in  *)
+(* Alphabet_reduction.nb.                                                                              *)
+
+(* Moreover, the letters are in the lists below are written in parity eigenstates.                     *)
 
 (* The square roots t[1],...t[11] appearing in them are given in the replacement rule "tRuleZ".        *)
 

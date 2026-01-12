@@ -1,10 +1,10 @@
 (* ::Package:: *)
 
 (* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
-(* Aliaj, Gab Dian and Georgios Papathanasiou.                                                         *) 
+(* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *)
 
-(* Alphabet of 2408.05201 divided into permutation orbits. Conventions and variables meet the ones used*)
-(*in that paper                                                                                        *)
+(* Alphabet of 2408.05201 divided into permutation orbits. Conventions and variables meet the ones     *)
+(* used in that paper.                                                                                  *)
 
 
 orbits5p2mACSZ = {{W[1] -> p4sq, W[2] -> p5sq, W[3] -> s12, W[4] -> s23, 

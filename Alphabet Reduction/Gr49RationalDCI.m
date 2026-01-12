@@ -1,3 +1,9 @@
+(* ::Package:: *)
+
+(* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
+(* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *)
+
+
 Gr49RationalDCI = {(br[1, 2, 3, 9]*br[1, 2, 4, 8])/
       (br[1, 2, 3, 4]*br[1, 2, 8, 9]), (br[1, 2, 3, 4]*br[2, 3, 5, 9])/
       (br[1, 2, 3, 9]*br[2, 3, 4, 5]), (br[1, 3, 4, 6]*br[2, 3, 4, 5])/

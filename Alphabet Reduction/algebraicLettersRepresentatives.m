@@ -1,5 +1,10 @@
 (* ::Package:: *)
 
+(* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
+(* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *)
+
+
+
 algebraicLettersRepresentatives = 
     {{standardBlock[-(br[1, 2, 3, 9]*(br[1, 3, 7, 8]*br[2, 4, 6, 7] - 
             br[1, 2, 7, 8]*br[3, 4, 6, 7])^2) + br[1, 2, 3, 7]^2*

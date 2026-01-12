@@ -1,5 +1,9 @@
 (* ::Package:: *)
 
+(* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
+(* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *) 
+
+
 rationalNullSpace12 = SparseArray[Automatic, {1250, 3078}, 0, 
      {1, {{0, 2, 4, 5, 7, 9, 10, 12, 14, 15, 16, 18, 20, 22, 24, 26, 28, 29, 
        31, 33, 34, 35, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 59, 

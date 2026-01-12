@@ -1,18 +1,19 @@
 (* ::Package:: *)
 
-(* accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
-(* Aliaj, Gab Dian and Georgios Papathanasiou.                                                         *)
+(* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
+(* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *)
+
 
 (* This alphabet is obtained through the massless limit of the corresponding AB6p1m alphabet and       *)
 (* expressed in Mandelstam variables.                                                                  *) 
 
 (* The alphabet is split between rational (AB6p0mRatS), rationalisable (AB6p0mRatblS) and algebraic    *)
-(* (AB6p0Alg) in terms of momentum twistors.                                                          *)
+(* (AB6p0Alg) in terms of momentum twistors.                                                           *)
 
 (* The algebraic alphabet is organized in sublists with the same square roots                          *)
 
-(* The square roots r[1],r[2],r[3],r[4],r[5],eps[ijkl],d6  given in the replacement rule "rRuleS".     *)
-(* The ones for r[1],r[2],r[4] match rRuleZ  up to an overall total square factor.                     *)
+(* The square roots r[1], r[2], r[3], r[4], r[5], eps[ijkl], d6  given in the replacement rule "rRuleS"*)
+(* The ones for r[1], r[2], r[4] match rRuleZ  up to an overall total square factor.                   *)
 
 
 

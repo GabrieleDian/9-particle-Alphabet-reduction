@@ -1,7 +1,8 @@
 (* ::Package:: *)
 
-(* accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
-(* Aliaj, Gab Dian and Georgios Papathanasiou.                                                         *)
+(* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
+(* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *)
+
 (* This alphabet is obtained through the massless limit of the corresponding AB6p1m alphabet.          *) 
 
 (* The alphabet is split between rational (AB6p0mRatZ) and algebraic (AB6p0AlgZ) in terms of momentum  *)

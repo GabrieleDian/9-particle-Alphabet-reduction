@@ -1,7 +1,7 @@
 (* ::Package:: *)
 
 (* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
-(* Aliaj, Gab Dian and Georgios Papathanasiou.                                                         *)
+(* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *)                                                    *)
 
 (* Pure 6-point-1 mass rational and rationalisable letters.                                            *)
 
