@@ -1,7 +1,7 @@
 (* ::Package:: *)
 
 (* Accompanying the paper "Novel cluster-algebraic letters for 5- and 6-point QCD processes" by Rigers *)
-(* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *)                                               *)
+(* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *)                                               
 
 (* Rational and rationalisable letters in terms of Mandelstam variables for 6-point-1 mass kinematics. *) 
 
@@ -1082,4 +1082,4 @@ sToBr6p1m={s[1,2]->br[2,3,6,7]/(br[2,3,8,9]br[6,7,8,9]),
 s[2,3]->br[1,2,3,4]/(br[1,2,8,9]br[3,4,8,9]),s[3,4]->br[2,3,4,5]/(br[2,3,8,9]br[4,5,8,9]),
 s[4,5]->br[3,4,5,6]/(br[3,4,8,9]br[5,6,8,9]),s[5,6]->br[4,5,6,7]/(br[4,5,8,9]br[6,7,8,9]),
 s[6,1]->br[1,2,5,6]/(br[1,2,8,9]br[5,6,8,9]),s[1,2,3]->br[3,4,6,7]/(br[3,4,8,9] br[6,7,8,9]),
-s[2,3,4]->br[1,2,4,5]/(br[1,2,8,9]br[4,5,8,9]),s[3,4,5]->br[2,3,5,6]/(br[2,3,8,9] br[5,6,8,9]),ps1->br[1,2,6,7]/(br[1,2,8,9]br[6,7,8,9]),};
+s[2,3,4]->br[1,2,4,5]/(br[1,2,8,9]br[4,5,8,9]),s[3,4,5]->br[2,3,5,6]/(br[2,3,8,9] br[5,6,8,9]),ps1->br[1,2,6,7]/(br[1,2,8,9]br[6,7,8,9])};
