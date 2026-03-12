@@ -19,7 +19,7 @@
 (* The square roots t[1],...t[11] appearing in them are given in the replacement rule "tRuleZ".        *)
 
 (* The letters involving t[10],t[11] match the ones with the nested square roots \[CapitalDelta]+_ in the mandelstam *)
-(* variables and the first letter in each list corresponds to the letters in nestedLetter6p1m.m        *)
+(* variables. Moreover AB6p1mAlgZ[[11,1]] matches the letter we present in nestedLetter6p1m.m          *)
 
 (* cap[{i__},{j__},{k__}] is to be evaluated with evalCap                                              *)
 
