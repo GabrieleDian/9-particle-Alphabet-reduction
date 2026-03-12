@@ -18,6 +18,9 @@
 
 (* The square roots t[1],...t[11] appearing in them are given in the replacement rule "tRuleZ".        *)
 
+(* The letters involving t[10],t[11] match the ones with the nested square roots \[CapitalDelta]+_ in the mandelstam *)
+(* variables and the first letter in each list corresponds to the letters in nestedLetter6p1m.m        *)
+
 (* cap[{i__},{j__},{k__}] is to be evaluated with evalCap                                              *)
 
 
@@ -4000,7 +4003,7 @@ AB6p1mAlgZ =
           br[4, 5, 6, 8]^2*br[6, 7, 8, 9] + br[4, 5, 6, 8]*
           (br[2, 6, 8, 9]*(-(br[2, 3, 4, 8]*br[4, 5, 6, 1]) + 
              br[2, 3, 4, 1]*br[4, 5, 6, 8]) + br[2, 3, 4, 8]*br[2, 4, 5, 6]*
-            br[6, 8, 9, 1])*t[11])^2)}}
+            br[6, 8, 9, 1])*t[11])^2)}};
 
 
 
@@ -4061,4 +4064,4 @@ tRuleZ = {t[1] -> Sqrt[-4*br[2, 3, 4, 1]*br[2, 8, 9, 1]*br[3, 4, 5, 6]*
        (br[2, 3, 4, 6]*br[2, 8, 9, 1]*br[4, 5, 6, 7] + 
          br[2, 3, 4, 9]*br[2, 6, 7, 1]*br[4, 5, 6, 8] - 
          br[2, 3, 4, 8]*br[2, 6, 7, 1]*br[4, 5, 6, 9] + 
-         br[2, 3, 4, 1]*br[2, 4, 5, 6]*br[6, 7, 8, 9])^2]}
+         br[2, 3, 4, 1]*br[2, 4, 5, 6]*br[6, 7, 8, 9])^2]};

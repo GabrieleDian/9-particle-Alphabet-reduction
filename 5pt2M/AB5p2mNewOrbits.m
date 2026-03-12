@@ -9,7 +9,7 @@
 (* end of the file.                                                                                    *)
 
 
-AB5P2mNewOrbits={{-(p4s^2*p5s) + p4s*p5s*s[2, 3] + p4s^2*s[5, 1] + 2*p4s*p5s*s[5, 1] - 
+AB5p2mNewOrbits={{-(p4s^2*p5s) + p4s*p5s*s[2, 3] + p4s^2*s[5, 1] + 2*p4s*p5s*s[5, 1] - 
    p4s*s[4, 5]*s[5, 1] - 2*p4s*s[5, 1]^2 - p5s*s[5, 1]^2 - 
    s[2, 3]*s[5, 1]^2 + s[4, 5]*s[5, 1]^2 + s[5, 1]^3, 
   p4s*p5s*s[2, 3] - p5s*s[2, 3]^2 - p4s*s[2, 3]*s[5, 1] + 
