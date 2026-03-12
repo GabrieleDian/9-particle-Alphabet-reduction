@@ -4,8 +4,8 @@
 (* Aliaj, Gabriele Dian and Georgios Papathanasiou.                                                    *)
 
 
-(* This alphabet is obtained through the massless limit of the corresponding AB6p1m alphabet and       *)
-(* expressed in Mandelstam variables.                                                                  *) 
+(* This alphabet is obtained through the massless limit of the corresponding AB6p1m alphabet, expressed*)
+(* in terms of Mandelstam variables and properly cyclicly completed.                                         *) 
 
 (* The alphabet is split between rational (AB6p0mRatS), rationalisable (AB6p0mRatblS) and algebraic    *)
 (* (AB6p0Alg) in terms of momentum twistors.                                                           *)
@@ -13,7 +13,7 @@
 (* The algebraic alphabet is organized in sublists with the same square roots                          *)
 
 (* The square roots r[1], r[2], r[3], r[4], r[5], eps[ijkl], d6 are                                    *)
-(* given in the replacement rule "rRule".                                                             *)
+(* given in the replacement rule "rRule".                                                              *)
 
 (* The ones for r[1], r[2], r[4] match rRuleZ  up to an overall total square factor.                   *)
 

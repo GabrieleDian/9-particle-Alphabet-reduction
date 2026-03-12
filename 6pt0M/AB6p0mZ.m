@@ -1405,17 +1405,6 @@ AB6p0mRatZ = {(br[1, 2, 4, 6]*br[1, 3, 4, 5])/(br[1, 2, 3, 4]*
  
 
 
-br /: MakeBoxes[br[xx__], StandardForm | TraditionalForm] := 
-     brBox[ToBoxes[{xx}], Sequence @@ ToBoxes /@ {xx}]
- 
-Attributes[MakeBoxes] = {HoldAllComplete}
- 
-brBox[a_, b__] := TemplateBox[{b}, "br", DisplayFunction -> 
-      (TemplateBox[{"\[LeftAngleBracket]", b, "\[RightAngleBracket]"}, 
-        "RowDefault"] & ), InterpretationFunction -> 
-      (RowBox[{"br", "[", a[[1,2]], "]"}] & )]
-
-
 AB6p0mAlgZ ={{(-(br[1, 6, 7, 8]*(-(br[2, 4, 7, 8]*br[3, 4, 5, 6]) + 
         br[2, 4, 5, 6]*br[3, 4, 7, 8])^2) + br[1, 4, 5, 6]*br[2, 3, 4, 5]*
      br[2, 3, 7, 8]*br[4, 6, 7, 8]^2 + br[4, 5, 7, 8]*
