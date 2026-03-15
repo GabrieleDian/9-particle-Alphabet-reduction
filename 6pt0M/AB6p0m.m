@@ -5,9 +5,9 @@
 
 
 (* This alphabet is obtained through the massless limit of the corresponding AB6p1m alphabet, expressed*)
-(* in terms of Mandelstam variables and properly cyclicly completed.                                         *) 
+(* in terms of Mandelstam variables and properly cyclicly completed.                                   *) 
 
-(* The alphabet is split between rational (AB6p0mRatS), rationalisable (AB6p0mRatblS) and algebraic    *)
+(* The alphabet is split between rational (AB6p0mRat), rationalisable (AB6p0mRatbl) and algebraic    *)
 (* (AB6p0Alg) in terms of momentum twistors.                                                           *)
 
 (* The algebraic alphabet is organized in sublists with the same square roots                          *)
@@ -2265,3 +2265,16 @@ SqrtRepl={r[1] -> Sqrt[x[1]^(-2) + (x[3] - x[2]*x[4] - x[5])^2/
     x[2]*(x[5]^2 + x[4]*x[7]*(2 + x[4]*(-1 + x[7] - x[8])) + 
       x[5]*(-1 + x[4]*(-2*x[7] + x[8]))))/(x[1]^3*(x[3] - x[6])*(x[2] - x[8])*
     (x[2] - x[3]*x[8]))};
+
+
+
+(*Below we present the letters of AB6p0mRat and AB6p0Ratbl* that correspond to new letters.*)
+(*We give the indices for each case as numbered in the lists above.*)
+(*There are in total 102 rational and 60 rationalised new letters*)
+
+newAB6p0mRatInd={97,98,100,103,106,109,111,112,114,115,116,117,118,119,120,121,123,124,125,126,127,128,130,132,
+133,134,135,136,138,139,140,141,142,143,146,147,151,153,154,155,156,157,158,159,160,161,163,164,
+165,166,168,169,170,171,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,191,192,194,195,
+196,197,198,199,201,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221,222,223,224,225};
+newAB6p0mRatblInd={43,44,45,46,47,48,49,50,52,53,56,58,59,60,61,62,63,64,65,66,67,68,69,71,72,74,75,77,79,80,81,
+82,83,84,85,86,87,88,90,91,92,94,96,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114};
