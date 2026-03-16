@@ -1378,6 +1378,8 @@ Z5p2mE={{1,0,0,0},{0,1,0,0},{1,0,1,0},{1,1,0,1},{0,1,x[1],x[4]},{1,1,x[2],x[5]},
 Input: br[1,2,3,4]/.evalbr[Z6p1m]
 Out: 1*)
 evalbr[Zval_]:=br[x__]:>Det[Zval[[{x}]]]
+(*Map between Mandelstam variables corresponding to our kinematic configuration and Pl\[UDoubleDot]cker *)
+(*coordinates. Matches the one of the draft after inverting the shifts above.               *)
 sToBr5p2mH={s[1,2]->br[2,3,6,7]/(br[2,3,8,9] br[6,7,8,9]),s[2,3]->br[1,2,3,4]/(br[1,2,8,9] br[3,4,8,9]),s[3,4]->br[2,3,4,5]/(br[2,3,8,9] br[4,5,8,9]),
 s[4,5]->br[3,4,6,7]/(br[3,4,8,9] br[6,7,8,9]),s[5,1]->br[1,2,4,5]/(br[1,2,8,9] br[4,5,8,9]),p5s->br[4,5,6,7]/(br[4,5,8,9] br[6,7,8,9]),p1s->br[1,2,6,7]/(br[1,2,8,9] br[6,7,8,9])};
 
