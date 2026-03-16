@@ -3157,7 +3157,7 @@ brBox[a_, b__] := TemplateBox[{b}, "br", DisplayFunction ->
 
 
 (*Square root definitions for the algebraic hard and easy alphabets*)
-dHardRuleZ={dH[1]->Sqrt[-4 br[
+dRuleHardZ={dH[1]->Sqrt[-4 br[
 Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "4", ",", "5"}], "}"}], 1, 2]] br[
 Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "8", ",", "9"}], "}"}], 1, 2]] br[
 Part[RowBox[{"{", RowBox[{"4", ",", "5", ",", "6", ",", "7"}], "}"}], 1, 2]] br[
@@ -3273,8 +3273,8 @@ Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "8", ",", "9"}], "}"}], 1, 2]] br[
 Part[RowBox[{"{", RowBox[{"2", ",", "3", ",", "4", ",", "5"}], "}"}], 1, 2]] br[
 Part[RowBox[{"{", RowBox[{"2", ",", "3", ",", "8", ",", "9"}], "}"}], 1, 2]] br[
 Part[RowBox[{"{", RowBox[{"4", ",", "5", ",", "8", ",", "9"}], "}"}], 1, 2]] br[
-Part[RowBox[{"{", RowBox[{"6", ",", "7", ",", "8", ",", "9"}], "}"}], 1, 2]])};
-dEasyRuleZ={dE[1]->Sqrt[-4 br[
+Part[RowBox[{"{", RowBox[{"6", ",", "7", ",", "8", ",", "9"}], "}"}], 1, 2]])}
+dRuleEasyZ={dE[1]->Sqrt[-4 br[
 Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "3", ",", "4"}], "}"}], 1, 2]] br[
 Part[RowBox[{"{", RowBox[{"1", ",", "2", ",", "8", ",", "9"}], "}"}], 1, 2]] br[
 Part[RowBox[{"{", RowBox[{"2", ",", "3", ",", "4", ",", "6"}], "}"}], 1, 2]] br[
