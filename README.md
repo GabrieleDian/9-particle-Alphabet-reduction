@@ -6,4 +6,4 @@ This repository contains the result of the paper "Novel cluster-algebraic letter
 "6pt1m" involves the results of 6 point 1 mass, "6pt0m" of 6 point massless, while "5pt2M" the ones for 5 point 2 mass letters.
 
 
-For comments/questions/complaints please send a message to: rigers.aliaj@gmail.com.
+For comments/questions/complaints please send a message to: aliajrigers@gmail.com
