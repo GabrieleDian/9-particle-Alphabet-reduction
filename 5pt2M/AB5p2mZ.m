@@ -216,16 +216,8 @@ AB5p2mRatHardZ = {-((br[1, 2, 8, 9]*br[2, 3, 6, 7]*
       (br[1, 2, 8, 9]*br[2, 3, 6, 7]*br[4, 5, 6, 7]), 
      (br[2, 3, 6, 7]*br[4, 5, 8, 9])/(br[2, 3, 4, 5]*br[6, 7, 8, 9])}
  
-br /: MakeBoxes[br[xx__], StandardForm | TraditionalForm] := 
-     brBox[ToBoxes[{xx}], Sequence @@ ToBoxes /@ {xx}]
- 
-Attributes[MakeBoxes] = {HoldAllComplete}
- 
-brBox[a_, b__] := TemplateBox[{b}, "br", DisplayFunction -> 
-      (TemplateBox[{"\[LeftAngleBracket]", b, "\[RightAngleBracket]"}, 
-        "RowDefault"] & ), InterpretationFunction -> 
-      (RowBox[{"br", "[", a[[1,2]], "]"}] & )]
-{
+
+AB5p2mAlgHardZ={
  {((-(br[1, 2, 8, 9]*br[4, 5, 6, 7]*(-(br[1, 2, 4, 5]*br[3, 6, 7, 9]) + 
          br[1, 2, 3, 5]*br[4, 6, 7, 9] - br[1, 2, 3, 4]*br[5, 6, 7, 9])^2) - 
      br[1, 2, 6, 7]*(-((-(br[1, 6, 7, 9]*br[2, 3, 4, 5]) + 
@@ -1902,8 +1894,8 @@ brBox[a_, b__] := TemplateBox[{b}, "br", DisplayFunction ->
         (br[2, 3, 5, 9]*br[4, 6, 8, 9] - br[2, 3, 4, 9]*br[5, 6, 8, 9])) - 
      br[1, 2, 6, 9]^2*br[2, 3, 4, 5]*br[2, 3, 8, 9]*br[4, 5, 8, 9]*
       br[6, 7, 8, 9] + br[1, 2, 6, 9]*(-(br[2, 3, 5, 9]*br[4, 6, 8, 9]) + 
-       br[2, 3, 4, 9]*br[5, 6, 8, 9])*dH[7]))}}
-{-((br[1, 2, 6, 9]*br[1, 6, 8, 9]*br[2, 3, 4, 5]*br[5, 6, 7, 8] - 
+       br[2, 3, 4, 9]*br[5, 6, 8, 9])*dH[7]))}};
+AB5p2mRatEasyZ={-((br[1, 2, 6, 9]*br[1, 6, 8, 9]*br[2, 3, 4, 5]*br[5, 6, 7, 8] - 
     br[1, 2, 5, 9]*br[1, 6, 8, 9]*br[2, 3, 4, 6]*br[5, 6, 7, 8] - 
     br[1, 2, 6, 9]*br[1, 3, 4, 5]*br[2, 6, 8, 9]*br[5, 6, 7, 8] + 
     br[1, 2, 5, 9]*br[1, 3, 4, 6]*br[2, 6, 8, 9]*br[5, 6, 7, 8] - 
@@ -2100,8 +2092,8 @@ brBox[a_, b__] := TemplateBox[{b}, "br", DisplayFunction ->
   (br[1, 2, 8, 9]*br[2, 3, 6, 7]*br[3, 4, 5, 6]), 
  (br[1, 2, 5, 6]*br[3, 4, 8, 9])/(br[1, 2, 8, 9]*br[3, 4, 5, 6]), 
  (br[1, 2, 6, 7]*br[1, 2, 8, 9]*br[3, 4, 5, 6])/
-  (br[1, 2, 3, 4]*br[1, 2, 5, 6]*br[6, 7, 8, 9])}
-{{(-(br[1, 2, 3, 4]*br[2, 3, 5, 6]*(br[1, 6, 8, 9]*br[2, 3, 6, 7] - 
+  (br[1, 2, 3, 4]*br[1, 2, 5, 6]*br[6, 7, 8, 9])};
+AB5p2mAlgEasyZ={{(-(br[1, 2, 3, 4]*br[2, 3, 5, 6]*(br[1, 6, 8, 9]*br[2, 3, 6, 7] - 
         br[1, 3, 6, 7]*br[2, 6, 8, 9])^2) - br[1, 2, 6, 7]*br[2, 3, 4, 6]*
      (br[1, 2, 6, 9]*br[3, 5, 6, 8] - br[1, 2, 6, 8]*br[3, 5, 6, 9])*
      (br[1, 2, 3, 9]*br[3, 6, 7, 8] - br[1, 2, 3, 8]*br[3, 6, 7, 9]) + 
